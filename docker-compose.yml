@@ -1,0 +1,18 @@
+version: '3.9'
+
+volumes:
+  packages:
+
+services:
+  cat-leap:
+    build:
+      context: ./catleap
+    container_name: cat-leap
+    tty: true
+    volumes:
+      - type: bind
+        source: ./catleap
+        target: /catleap
+      - type: volume
+        source: packages
+        target: /usr/local/lib/python3.9/site-packages
