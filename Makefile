@@ -7,3 +7,8 @@ down:
 	@docker compose down
 exec:
 	@docker compose exec cat-leap sh
+build:
+	@docker compose exec cat-leap poetry build
+install:
+	@docker compose exec cat-leap poetry install
+	@docker compose exec cat-leap poetry update
