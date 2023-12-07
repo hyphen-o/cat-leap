@@ -17,9 +17,11 @@ jobs:
       - name: Get Python version
         run: python -V
       - name: Install dependencies
-        run: pip install poetry
-        run: poetry install
+        working-directory: ./catleap
+        run: pip install poetry && poetry install
       - name: Run black
+        working-directory: ./catleap
         run: poetry run black --check
       - name: Run pylint
+        working-directory: ./catleap
         run: poetry run pylint
