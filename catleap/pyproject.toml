@@ -7,8 +7,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-black = "^23.11.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.2"
+black = "^23.11.0"
 
 [build-system]
 requires = ["poetry-core"]
