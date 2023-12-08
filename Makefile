@@ -24,6 +24,6 @@ install:
 
 lint:
 	@docker compose exec cat-leap poetry run pylint .
-	
+
 format:
 	@docker compose exec cat-leap poetry run black .
