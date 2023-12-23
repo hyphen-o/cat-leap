@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "catleap"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.66.1"
+pandas = "^2.1.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.2"
+black = "^23.11.0"
+mypy = {version = "^1.8.0", extras = ["V"]}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

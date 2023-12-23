@@ -1,0 +1,7074 @@
+[
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 27
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 10
+    },
+    "Count": 9
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 12
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 10,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 15,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 16,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 9,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 22
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 4,
+      "Reach": 6
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 11
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 10,
+      "Reach": 6
+    },
+    "Count": 16
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 11,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 9,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 19
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 14,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 11,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 10
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 7,
+      "Reach": 7
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 11,
+      "Reach": 7
+    },
+    "Count": 10
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 13,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 7
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 12,
+      "Reach": 7
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 7,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 10,
+      "Reach": 7
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 22
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 24
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 8
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 3,
+        "User": 0
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 14
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 10
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 14
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 7
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 14
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 8
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 2,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 11,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 14,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 11,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 14,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 2,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 15,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 15,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 4,
+      "Reach": 7
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 28
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 24
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 11
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 8
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 8
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 7
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 9,
+      "Reach": 6
+    },
+    "Count": 8
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 11,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 9
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 9
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 11
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 7
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 7
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 16,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 3,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 13,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 9,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 12,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 9
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 8
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 3,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 15
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 7
+    },
+    "Count": 11
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 4,
+      "Reach": 11
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 16
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 12
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 10
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 8
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 14
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 8
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 4,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 17,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 7
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 16,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 11,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 7
+    },
+    "Count": 8
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 3
+      },
+      "Distance": 4,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 9,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 6
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 11
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 7
+    },
+    "Count": 10
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 12,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 7
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 7,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 10,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 9,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 10
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 16
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 4,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 4,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 16,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 12
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 9
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 2,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 0
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 8
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 14
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 9
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 11
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 7
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 8
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 10,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 11
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 7
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 13,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 7,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 14
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 6
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 10,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 18,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 10
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 10,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 8
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 4,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 10,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 10
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 11
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 3
+      },
+      "Distance": 2,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 17,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 18,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 10,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 12,
+      "Reach": 7
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 2,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 2,
+        "Para": 0,
+        "Sync": 0,
+        "User": 0
+      },
+      "Distance": 6,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 16,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 14
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 12,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 15,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 17,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 14,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 14,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 9
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 18,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 3
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 7,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 10
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 9,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 2,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 9
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 16,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 3,
+        "User": 1
+      },
+      "Distance": 13,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 12,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 11,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 11
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 16,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 7,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 10,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 5
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 12,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 2,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 9,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 7
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 13,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 7,
+      "Reach": 7
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 13,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 17,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 6
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 4,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 2,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 0
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 14
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 13
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 14
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 10
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 10
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 12
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 14,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 10
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 10,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 11,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 11,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 12,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 18,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 16,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 12,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 17,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 14,
+      "Reach": 13
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 8
+    },
+    "Count": 4
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 13,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 7,
+      "Reach": 6
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 13,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 13,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 2,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 14,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 2,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 9
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 14,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 3,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 9,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 12,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 12,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 0
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 15,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 13,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 12,
+      "Reach": 16
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 10
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 11
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 4,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 12,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 7,
+      "Reach": 8
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 1,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 14,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 4,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 15,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 16,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 7
+    },
+    "Count": 2
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 7,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 5,
+      "Reach": 7
+    },
+    "Count": 3
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 3,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 10,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 13
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 8,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 5,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 9,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 12,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 1,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 2,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 8,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 2,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 7,
+      "Reach": 9
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 3,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 9,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 2
+      },
+      "Distance": 2,
+      "Reach": 10
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 2,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 0
+      },
+      "Distance": 19,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 2,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 12
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 1,
+        "User": 2
+      },
+      "Distance": 6,
+      "Reach": 6
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 1,
+        "CTScore": 5,
+        "Data": 0,
+        "Flow": 1,
+        "Logi": 0,
+        "Para": 1,
+        "Sync": 1,
+        "User": 1
+      },
+      "Distance": 6,
+      "Reach": 8
+    },
+    "Count": 1
+  },
+  {
+    "Dictionary": {
+      "Before": {
+        "Abst": 0,
+        "CTScore": 5,
+        "Data": 1,
+        "Flow": 3,
+        "Logi": 0,
+        "Para": 0,
+        "Sync": 0,
+        "User": 1
+      },
+      "Distance": 1,
+      "Reach": 7
+    },
+    "Count": 1
+  }
+]

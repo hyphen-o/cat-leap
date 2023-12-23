@@ -25,5 +25,8 @@ install:
 lint:
 	@docker compose exec cat-leap poetry run pylint .
 
+type-check:
+	@docker compose exec cat-leap poetry run mypy .
+
 format:
 	@docker compose exec cat-leap poetry run black .
