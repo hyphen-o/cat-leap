@@ -6,12 +6,12 @@ volumes:
 services:
   cat-leap:
     build:
-      context: ./catleap
+      context: ./app
     container_name: cat-leap
     tty: true
     volumes:
       - type: bind
-        source: ./catleap
+        source: ./app
         target: /catleap
       - type: volume
         source: packages
