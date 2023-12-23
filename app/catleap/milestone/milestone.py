@@ -7,10 +7,7 @@ sys.path.append("../")
 class MileStoneEvaluater:
     def set_data(self, data: pd.DataFrame):
         self.__personal_data = data
-        self.__milestones = {
-            "BASIC_TO_DEVELOPING": [],
-            "DEVELOPING_TO_MASTER": []
-        }
+        self.__milestones = {"BASIC_TO_DEVELOPING": [], "DEVELOPING_TO_MASTER": []}
 
     def get_milestone(self):
         user_level = self.__get_user_level_init()
@@ -18,26 +15,28 @@ class MileStoneEvaluater:
         for row in self.__personal_data.itertuples():
             CURRENT_LEVEL = self.__categorize_level(row.CTScore)
 
-            #現在の習熟度がMASTERなら処理終了
+            # 現在の習熟度がMASTERなら処理終了
             if user_level == "MASTER":
                 break
 
-            tmp_array.append({
-                "Before": {
-                    "Abst": row.Abst,
-                    "Para": row.Para,
-                    "Logi": row.Logi,
-                    "Sync": row.Sync,
-                    "Flow": row.Flow,
-                    "User": row.User,
-                    "Data": row.Data,
-                    "CTScore": row.CTScore,
-                },
-                "IsRemix": row.IsRemix,
-                "Level": CURRENT_LEVEL
-            })
+            tmp_array.append(
+                {
+                    "Before": {
+                        "Abst": row.Abst,
+                        "Para": row.Para,
+                        "Logi": row.Logi,
+                        "Sync": row.Sync,
+                        "Flow": row.Flow,
+                        "User": row.User,
+                        "Data": row.Data,
+                        "CTScore": row.CTScore,
+                    },
+                    "IsRemix": row.IsRemix,
+                    "Level": CURRENT_LEVEL,
+                }
+            )
 
-            #オリジナル作品で習熟度が向上したら記録
+            # オリジナル作品で習熟度が向上したら記録
             if self.__is_grown(user_level, CURRENT_LEVEL) and row.IsRemix == 0:
                 if user_level == "BASIC":
                     self.__milestones["BASIC_TO_DEVELOPING"] = tmp_array.copy()
@@ -48,9 +47,7 @@ class MileStoneEvaluater:
 
         return self.__milestones
 
-
     def __categorize_level(self, score: int):
-
         """CTスコアからCT習熟度を返す関数
         Args:
             score (int): カテゴリ分けしたいCTスコア
@@ -65,9 +62,7 @@ class MileStoneEvaluater:
         elif score >= 0:
             return "BASIC"
 
-        
     def __is_grown(self, user_level: str, current_level: str):
-
         """ユーザの習熟度が向上したかを返す関数
 
         Args:
@@ -78,11 +73,15 @@ class MileStoneEvaluater:
             boolean: ユーザの習熟度が向上したかどうかのフラグ
         """
 
-        if (user_level == "BASIC" and current_level == "DEVELOPING") or (user_level == "BASIC" and current_level == "MASTER") or (user_level == "DEVELOPING" and current_level == "MASTER"):
+        if (
+            (user_level == "BASIC" and current_level == "DEVELOPING")
+            or (user_level == "BASIC" and current_level == "MASTER")
+            or (user_level == "DEVELOPING" and current_level == "MASTER")
+        ):
             return True
         else:
             return False
-    
+
     def __get_user_level_init(self):
         for row in self.__personal_data.itertuples():
             if row.IsRemix == 0:

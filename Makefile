@@ -23,7 +23,7 @@ install:
 	@docker compose exec cat-leap poetry update
 
 lint:
-	@docker compose exec cat-leap poetry run pylint .
+	@docker compose exec cat-leap poetry run pylint catleap
 
 type-check:
 	@docker compose exec cat-leap poetry run mypy .

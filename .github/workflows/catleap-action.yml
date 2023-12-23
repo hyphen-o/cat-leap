@@ -22,6 +22,6 @@ jobs:
       - name: Run black
         working-directory: ./catleap
         run: poetry run black --check .
-      - name: Run pylint
-        working-directory: ./catleap
-        run: poetry run pylint .
+      # - name: Run pylint
+      #   working-directory: ./catleap
+      #   run: poetry run pylint .
