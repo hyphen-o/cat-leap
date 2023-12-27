@@ -1,5 +1,6 @@
 __pycache__
 
+.DS_Store
 app/*
 out/*
 !out/out.zip
