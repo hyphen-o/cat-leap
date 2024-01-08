@@ -17,8 +17,8 @@ jobs:
       - name: Get Python version
         run: python -V
       - name: Install dependencies
-        working-directory: ./catleap
+        working-directory: ./src
         run: pip install poetry && poetry install
       - name: Run black
-        working-directory: ./catleap
+        working-directory: ./src
         run: poetry run black --check catleap
