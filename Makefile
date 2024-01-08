@@ -15,6 +15,9 @@ else
 	@docker compose exec cat-leap $(args)
 endif
 
+zip:
+	@docker compose exec cat-leap poetry run python catleap/utils/zipper.py $(args)
+
 build:
 	@docker compose exec cat-leap poetry build
 

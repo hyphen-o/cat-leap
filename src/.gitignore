@@ -1,0 +1,6 @@
+__pycache__
+
+catleap/app/.DS_Store
+catleap/app/*
+catleap/out/*
+catleap/!out/out.zip
