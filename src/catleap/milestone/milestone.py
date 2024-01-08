@@ -33,7 +33,7 @@ class MileStoneEvaluater:
                     },
                     "IsRemix": row.IsRemix,
                     "Level": CURRENT_LEVEL,
-                    "UserName": row.UserName
+                    "UserName": row.UserName,
                 }
             )
 
