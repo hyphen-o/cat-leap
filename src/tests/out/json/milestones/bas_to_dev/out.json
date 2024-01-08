@@ -1,0 +1,306 @@
+[
+  [
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 1,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 1,
+        "User": 1,
+        "Data": 0,
+        "CTScore": 4
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 1,
+        "User": 2,
+        "Data": 0,
+        "CTScore": 4
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 1,
+        "User": 2,
+        "Data": 0,
+        "CTScore": 4
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 0,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 1,
+        "User": 2,
+        "Data": 0,
+        "CTScore": 3
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 1,
+        "User": 2,
+        "Data": 0,
+        "CTScore": 4
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 0,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 1,
+        "User": 2,
+        "Data": 1,
+        "CTScore": 4
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 3,
+        "Para": 3,
+        "Logi": 3,
+        "Sync": 3,
+        "Flow": 3,
+        "User": 2,
+        "Data": 3,
+        "CTScore": 20
+      },
+      "IsRemix": 1,
+      "Level": "MASTER",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 1,
+        "User": 2,
+        "Data": 0,
+        "CTScore": 4
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 1,
+        "Logi": 2,
+        "Sync": 2,
+        "Flow": 2,
+        "User": 2,
+        "Data": 1,
+        "CTScore": 11
+      },
+      "IsRemix": 1,
+      "Level": "DEVELOPING",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 1,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 2,
+        "User": 1,
+        "Data": 1,
+        "CTScore": 6
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 1,
+        "Logi": 3,
+        "Sync": 3,
+        "Flow": 2,
+        "User": 2,
+        "Data": 2,
+        "CTScore": 14
+      },
+      "IsRemix": 1,
+      "Level": "DEVELOPING",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 3,
+        "Para": 3,
+        "Logi": 3,
+        "Sync": 3,
+        "Flow": 3,
+        "User": 2,
+        "Data": 2,
+        "CTScore": 19
+      },
+      "IsRemix": 1,
+      "Level": "MASTER",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 3,
+        "Logi": 3,
+        "Sync": 3,
+        "Flow": 2,
+        "User": 2,
+        "Data": 2,
+        "CTScore": 16
+      },
+      "IsRemix": 1,
+      "Level": "MASTER",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 2,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 2,
+        "User": 2,
+        "Data": 1,
+        "CTScore": 7
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "---1122"
+    },
+    {
+      "Before": {
+        "Abst": 2,
+        "Para": 2,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 1,
+        "User": 2,
+        "Data": 2,
+        "CTScore": 9
+      },
+      "IsRemix": 0,
+      "Level": "DEVELOPING",
+      "UserName": "---1122"
+    }
+  ],
+  [
+    {
+      "Before": {
+        "Abst": 0,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 0,
+        "User": 0,
+        "Data": 0,
+        "CTScore": 0
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "-Aries"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 1,
+        "Logi": 3,
+        "Sync": 3,
+        "Flow": 2,
+        "User": 2,
+        "Data": 1,
+        "CTScore": 13
+      },
+      "IsRemix": 1,
+      "Level": "DEVELOPING",
+      "UserName": "-Aries"
+    },
+    {
+      "Before": {
+        "Abst": 0,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 0,
+        "User": 0,
+        "Data": 0,
+        "CTScore": 0
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "-Aries"
+    },
+    {
+      "Before": {
+        "Abst": 0,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 0,
+        "User": 0,
+        "Data": 0,
+        "CTScore": 0
+      },
+      "IsRemix": 1,
+      "Level": "BASIC",
+      "UserName": "-Aries"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 1,
+        "Logi": 1,
+        "Sync": 0,
+        "Flow": 2,
+        "User": 2,
+        "Data": 1,
+        "CTScore": 8
+      },
+      "IsRemix": 0,
+      "Level": "DEVELOPING",
+      "UserName": "-Aries"
+    }
+  ]
+]

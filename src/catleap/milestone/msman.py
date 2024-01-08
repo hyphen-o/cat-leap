@@ -26,3 +26,5 @@ class MileStoneManager(MileStoneEvaluater):
             json.dump(self.__bas_to_dev, f, indent=2)
         with open(path.DEV_TO_MAS + "out.json", "w") as f:
             json.dump(self.__dev_to_mas, f, indent=2)
+        
+        return (self.__bas_to_dev, self.__dev_to_mas)

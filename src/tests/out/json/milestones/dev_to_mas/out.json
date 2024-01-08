@@ -1,0 +1,186 @@
+[
+  [
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 3,
+        "Logi": 2,
+        "Sync": 2,
+        "Flow": 2,
+        "User": 2,
+        "Data": 2,
+        "CTScore": 14
+      },
+      "IsRemix": 0,
+      "Level": "DEVELOPING",
+      "UserName": "--Snowball--"
+    },
+    {
+      "Before": {
+        "Abst": 3,
+        "Para": 3,
+        "Logi": 0,
+        "Sync": 2,
+        "Flow": 2,
+        "User": 1,
+        "Data": 1,
+        "CTScore": 12
+      },
+      "IsRemix": 0,
+      "Level": "DEVELOPING",
+      "UserName": "--Snowball--"
+    },
+    {
+      "Before": {
+        "Abst": 1,
+        "Para": 1,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 2,
+        "User": 1,
+        "Data": 1,
+        "CTScore": 6
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "--Snowball--"
+    },
+    {
+      "Before": {
+        "Abst": 3,
+        "Para": 3,
+        "Logi": 3,
+        "Sync": 3,
+        "Flow": 3,
+        "User": 2,
+        "Data": 2,
+        "CTScore": 19
+      },
+      "IsRemix": 0,
+      "Level": "MASTER",
+      "UserName": "--Snowball--"
+    }
+  ],
+  [
+    {
+      "Before": {
+        "Abst": 2,
+        "Para": 0,
+        "Logi": 3,
+        "Sync": 1,
+        "Flow": 2,
+        "User": 1,
+        "Data": 3,
+        "CTScore": 12
+      },
+      "IsRemix": 0,
+      "Level": "DEVELOPING",
+      "UserName": "-999WasHereAlt-"
+    },
+    {
+      "Before": {
+        "Abst": 3,
+        "Para": 1,
+        "Logi": 3,
+        "Sync": 2,
+        "Flow": 3,
+        "User": 1,
+        "Data": 2,
+        "CTScore": 15
+      },
+      "IsRemix": 1,
+      "Level": "MASTER",
+      "UserName": "-999WasHereAlt-"
+    },
+    {
+      "Before": {
+        "Abst": 2,
+        "Para": 1,
+        "Logi": 3,
+        "Sync": 1,
+        "Flow": 2,
+        "User": 1,
+        "Data": 3,
+        "CTScore": 13
+      },
+      "IsRemix": 1,
+      "Level": "DEVELOPING",
+      "UserName": "-999WasHereAlt-"
+    },
+    {
+      "Before": {
+        "Abst": 0,
+        "Para": 0,
+        "Logi": 0,
+        "Sync": 0,
+        "Flow": 2,
+        "User": 1,
+        "Data": 1,
+        "CTScore": 4
+      },
+      "IsRemix": 0,
+      "Level": "BASIC",
+      "UserName": "-999WasHereAlt-"
+    },
+    {
+      "Before": {
+        "Abst": 2,
+        "Para": 1,
+        "Logi": 3,
+        "Sync": 2,
+        "Flow": 2,
+        "User": 1,
+        "Data": 3,
+        "CTScore": 14
+      },
+      "IsRemix": 0,
+      "Level": "DEVELOPING",
+      "UserName": "-999WasHereAlt-"
+    },
+    {
+      "Before": {
+        "Abst": 2,
+        "Para": 1,
+        "Logi": 3,
+        "Sync": 2,
+        "Flow": 2,
+        "User": 1,
+        "Data": 3,
+        "CTScore": 14
+      },
+      "IsRemix": 0,
+      "Level": "DEVELOPING",
+      "UserName": "-999WasHereAlt-"
+    },
+    {
+      "Before": {
+        "Abst": 2,
+        "Para": 1,
+        "Logi": 3,
+        "Sync": 2,
+        "Flow": 2,
+        "User": 1,
+        "Data": 3,
+        "CTScore": 14
+      },
+      "IsRemix": 0,
+      "Level": "DEVELOPING",
+      "UserName": "-999WasHereAlt-"
+    },
+    {
+      "Before": {
+        "Abst": 3,
+        "Para": 1,
+        "Logi": 3,
+        "Sync": 3,
+        "Flow": 3,
+        "User": 1,
+        "Data": 3,
+        "CTScore": 17
+      },
+      "IsRemix": 0,
+      "Level": "MASTER",
+      "UserName": "-999WasHereAlt-"
+    }
+  ]
+]
