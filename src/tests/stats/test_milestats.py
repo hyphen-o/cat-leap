@@ -21,7 +21,7 @@ class TestFunc(unittest.TestCase):
         actual_length = self.__Ms.get_length()
         self.assertEqual(expected_length, actual_length)
 
-         # DEVELOPINGからMASTERに習熟した場合のテスト
+        # DEVELOPINGからMASTERに習熟した場合のテスト
         json_file = open(path.DEV_TO_MAS + "out.json", "r")
         dev_to_mas = json.load(json_file)
         json_file.close()
