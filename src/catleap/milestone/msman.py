@@ -17,9 +17,9 @@ class MileStoneManager(MileStoneEvaluater):
             personal_data = pd.read_csv(path.CT_CSV_SPLITTED + file_name)
             super().set_data(personal_data)
             milestones = super().get_milestone()
-            if milestones["BASIC_TO_DEVELOPING"]:
+            if milestones["BASIC_TO_DEVELOPING"] and len(milestones["BASIC_TO_DEVELOPING"]) > 1:
                 self.__bas_to_dev.append(milestones["BASIC_TO_DEVELOPING"])
-            if milestones["DEVELOPING_TO_MASTER"]:
+            if milestones["DEVELOPING_TO_MASTER"] and len(milestones["DEVELOPING_TO_MASTER"]) > 1:
                 self.__dev_to_mas.append(milestones["DEVELOPING_TO_MASTER"])
 
         with open(path.BAS_TO_DEV + "out.json", "w") as f:
