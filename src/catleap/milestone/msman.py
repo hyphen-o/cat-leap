@@ -4,7 +4,11 @@ import pandas as pd
 from .milestone import MileStoneEvaluater
 from constants import path
 from tqdm import tqdm
+from typing import NamedTuple
 
+class MileStones(NamedTuple):
+    bas_to_dev: dict
+    dev_to_mas: dict
 
 class MileStoneManager(MileStoneEvaluater):
     def __init__(self, dir_path):
@@ -33,4 +37,4 @@ class MileStoneManager(MileStoneEvaluater):
         with open(path.DEV_TO_MAS + "out.json", "w") as f:
             json.dump(self.__dev_to_mas, f, indent=2)
 
-        return (self.__bas_to_dev, self.__dev_to_mas)
+        return MileStones(self.__bas_to_dev, self.__dev_to_mas)
