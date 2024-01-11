@@ -1,3 +1,5 @@
+from typing import NamedTuple
+
 class MileStastics:
     def set_data(self, miles_data):
         self.__MILES_DATA = miles_data
