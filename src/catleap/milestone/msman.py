@@ -6,9 +6,11 @@ from constants import path
 from tqdm import tqdm
 from typing import NamedTuple
 
+
 class MileStones(NamedTuple):
     bas_to_dev: dict
     dev_to_mas: dict
+
 
 class MileStoneManager(MileStoneEvaluater):
     def __init__(self, dir_path):

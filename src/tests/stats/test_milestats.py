@@ -33,7 +33,7 @@ class TestFunc(unittest.TestCase):
         actual_length = self.__Ms.get_length()
         self.assertEqual(expected_length_list, actual_length.list)
         self.assertEqual(expected_length_mean, actual_length.mean)
-    
+
     def test_get_duplication(self):
         self.__Ms = MileStastics()
 
@@ -44,7 +44,6 @@ class TestFunc(unittest.TestCase):
         self.__Ms.set_data(bas_to_dev)
         actual_duplication = self.__Ms.get_duplication()
         self.assertEqual(expected_duplication, actual_duplication)
-
 
 
 if __name__ == "__main__":
