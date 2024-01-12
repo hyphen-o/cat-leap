@@ -39,7 +39,7 @@ class MileStastics:
                             "Level": USER_MILES[index + 1]["Level"],
                         }
                         if index != len(USER_MILES) - 2
-                        else "NEXT_LEVEL",
+                        else "NEXT_LEVEL"
                     }
                 }
 
@@ -58,5 +58,4 @@ class MileStastics:
         for index, dict in enumerate(list):
             if value["Edge"] == dict["Edge"]:
                 return index
-            else:
-                return -1
+        return -1

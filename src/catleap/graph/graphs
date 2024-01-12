@@ -1,0 +1,12 @@
+digraph {
+	node [shape=square style=filled weight=200]
+	start -> state1 [label=0.8 weight=5 width=5]
+	start -> state2 [label=0.2]
+	state1 -> state1 [label=0.5]
+	state2 -> state2 [label=0.8]
+	state1 -> state2 [label=0.5]
+	state2 -> end [label=0.2]
+	end -> count [label=1.0]
+	count -> start [label=1.0]
+	start [color=pink shape=circle]
+}

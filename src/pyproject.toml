@@ -11,6 +11,7 @@ packages = [
 python = "^3.10"
 tqdm = "^4.66.1"
 pandas = "^2.1.4"
+graphviz = "^0.20.1"
 
 
 [tool.poetry.group.dev.dependencies]
