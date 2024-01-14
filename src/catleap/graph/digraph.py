@@ -6,6 +6,7 @@ class FormattedState(NamedTuple):
     start: str
     end: str
     count: str
+    euclid: float
     is_remix_start: int
     is_remix_end: int
 
@@ -15,19 +16,20 @@ def draw_digraph(duplication_list: list, graph_name="graphs", min_duplication=2)
     for duplication_dict in duplication_list:
         formatted_state = __format_state(duplication_dict)
         if int(formatted_state.count) > min_duplication:
-            G.attr(
-                "node",
-                shape="circle",
-                style="filled",
-                weight="200",
-                color="orange" if formatted_state.is_remix_end else "gray",
-            )
-            G.edge(
-                formatted_state.start,
-                formatted_state.end,
-                label=formatted_state.count,
-                color="red",
-            )
+            if formatted_state.euclid < 5.0:
+                G.attr(
+                    "node",
+                    shape="circle",
+                    style="filled",
+                    weight="200",
+                    color="orange" if formatted_state.is_remix_end else "gray",
+                )
+                G.edge(
+                    formatted_state.start,
+                    formatted_state.end,
+                    label=formatted_state.count,
+                    color="red",
+                )
 
     G.render(graph_name)
 
@@ -44,5 +46,6 @@ def __format_state(duplication_dict: dict):
         is_remix_end = duplication_dict["Edge"]["EndP"]["IsRemix"]
 
     count = str(duplication_dict["Count"])
+    euclid = duplication_dict["Euclid"]
 
-    return FormattedState(start, end, count, is_remix_start, is_remix_end)
+    return FormattedState(start, end, count, is_remix_start, is_remix_end, euclid)

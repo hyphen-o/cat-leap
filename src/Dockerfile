@@ -14,6 +14,7 @@ ENV TZ JST-9
 ENV TERM xterm
 
 RUN apt-get install -y vim less
+RUN apt-get install -y graphviz
 RUN pip install --upgrade pip
 RUN pip install poetry
 
