@@ -1,4 +1,3 @@
-
 ABST = "Abst"
 PARA = "Para"
 LOGI = "Logi"

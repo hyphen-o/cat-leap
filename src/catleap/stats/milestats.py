@@ -2,6 +2,7 @@ from typing import NamedTuple
 import numpy as np
 import sys
 import math
+
 sys.path.append("../")
 from constants import skill
 
@@ -43,7 +44,7 @@ class MileStastics:
                             "Level": USER_MILES[index + 1]["Level"],
                         }
                         if index != len(USER_MILES) - 2
-                        else "NEXT_LEVEL"
+                        else "NEXT_LEVEL",
                     }
                 }
 
@@ -52,7 +53,17 @@ class MileStastics:
                 if not dupli_index == -1:
                     list_duplication[dupli_index]["Count"] += 1
                 else:
-                    list_duplication.append({"Count": 1, "Euclid": self.__calculate_euclid(edge["Edge"]["StartP"] , edge["Edge"]["EndP"]) if not self.__is_next_level(edge["Edge"]["EndP"]) else "None" ,**edge})
+                    list_duplication.append(
+                        {
+                            "Count": 1,
+                            "Euclid": self.__calculate_euclid(
+                                edge["Edge"]["StartP"], edge["Edge"]["EndP"]
+                            )
+                            if not self.__is_next_level(edge["Edge"]["EndP"])
+                            else "None",
+                            **edge,
+                        }
+                    )
         return list_duplication
 
     def __find_duplication(self, list: list, value: dict):
@@ -69,9 +80,8 @@ class MileStastics:
         else:
             return False
 
-
     def __calculate_euclid(self, x: dict, y: dict):
         sum = 0
         for concept in skill.CT_SKILL:
             sum += (int(x[concept]) - int(y[concept])) ** 2
-        return round(sum ** 0.5, 3)
+        return round(sum**0.5, 3)
