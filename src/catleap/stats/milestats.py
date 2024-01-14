@@ -1,5 +1,9 @@
 from typing import NamedTuple
 import numpy as np
+import sys
+import math
+sys.path.append("../")
+from constants import skill
 
 
 class Length(NamedTuple):
@@ -48,8 +52,7 @@ class MileStastics:
                 if not dupli_index == -1:
                     list_duplication[dupli_index]["Count"] += 1
                 else:
-                    list_duplication.append({"Count": 1, **edge})
-
+                    list_duplication.append({"Count": 1, "Euclid": self.__calculate_euclid(edge["Edge"]["StartP"] , edge["Edge"]["EndP"]) if not self.__is_next_level(edge["Edge"]["EndP"]) else "None" ,**edge})
         return list_duplication
 
     def __find_duplication(self, list: list, value: dict):
@@ -59,3 +62,16 @@ class MileStastics:
             if value["Edge"] == dict["Edge"]:
                 return index
         return -1
+
+    def __is_next_level(self, end: str or dict):
+        if type(end) is str:
+            return True
+        else:
+            return False
+
+
+    def __calculate_euclid(self, x: dict, y: dict):
+        sum = 0
+        for concept in skill.CT_SKILL:
+            sum += (int(x[concept]) - int(y[concept])) ** 2
+        return round(sum ** 0.5, 3)
