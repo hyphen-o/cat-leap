@@ -1,7 +1,7 @@
 from typing import NamedTuple
 import numpy as np
 import sys
-import math
+from tqdm import tqdm
 
 sys.path.append("../")
 from constants import skill
@@ -26,7 +26,7 @@ class MileStastics:
 
     def get_duplication(self):
         list_duplication = []
-        for USER_MILES in self.__MILES_DATA:
+        for USER_MILES in tqdm(self.__MILES_DATA):
             for index, MILE in enumerate(USER_MILES):
                 if index == len(USER_MILES) - 1:
                     break
@@ -60,7 +60,7 @@ class MileStastics:
                                 edge["Edge"]["StartP"], edge["Edge"]["EndP"]
                             )
                             if not self.__is_next_level(edge["Edge"]["EndP"])
-                            else "None",
+                            else None,
                             **edge,
                         }
                     )
