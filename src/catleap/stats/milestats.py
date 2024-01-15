@@ -11,8 +11,10 @@ from graph import draw_boxplot
 class Length(NamedTuple):
     array: list
     array2: list
-    mean: int
-    mean2: int
+    mean: float
+    mean2: float
+    median: float
+    median2: float
 
 
 class BoxPlot(NamedTuple):
@@ -44,8 +46,10 @@ class MileStastics:
                 list_len2.append(len(USER_MILES) - 1)
         mean = np.mean(list_len)
         mean2 = np.mean(list_len2)
+        median = np.median(list_len)
+        median2 = np.median(list_len2)
 
-        return Length(list_len, list_len2, mean, mean2)
+        return Length(list_len, list_len2, mean, mean2, median, median2)
 
     def get_duplication(self):
         list_duplication = []

@@ -1,11 +1,15 @@
 from graphviz import Digraph
+import networkx as nx
+import json
+import community
+import matplotlib.pyplot as plt
 from typing import NamedTuple
 
 
 class FormattedState(NamedTuple):
     start: str
     end: str
-    count: str
+    count: int
     euclid: float
     is_remix_start: int
     is_remix_end: int
@@ -14,30 +18,51 @@ class FormattedState(NamedTuple):
 
 
 def draw_digraph(duplication_list: list, graph_name="graphs", min_duplication=2):
-    G = Digraph(format="png")
+    dot = Digraph(format="png")
+    G = nx.Graph()
     for duplication_dict in duplication_list:
         formatted_state = __format_state(duplication_dict)
         if int(formatted_state.count) > min_duplication:
             if formatted_state.euclid >= 0.0:
-                G.node(
+                dot.node(
                     formatted_state.start,
                     formatted_state.start,
                     color="orange" if formatted_state.is_remix_start else "black",
                 )
-                G.node(
+                dot.node(
                     formatted_state.end,
                     formatted_state.end,
                     color="orange" if formatted_state.is_remix_end else "black",
                 )
-                G.edge(
+                dot.edge(
+                    formatted_state.start,
+                    formatted_state.end,
+                    label=str(formatted_state.count),
+                    color="red",
+                )
+                G.add_node(
+                    formatted_state.start,
+                    features=formatted_state.feature_start,
+                )
+                G.add_node(
+                    formatted_state.end,
+                    features=formatted_state.feature_end,
+                )
+                G.add_edge(
                     formatted_state.start,
                     formatted_state.end,
                     label=formatted_state.count,
                     weight=formatted_state.count,
-                    color="red",
                 )
 
-    G.render(graph_name)
+    dot.render(graph_name)
+    # Louvain法によるコミュニティ抽出
+    communities = community.best_partition(G, weight='weight')
+
+    # 結果の表示
+    print("Community Assignment:", communities)
+    with open(f"{graph_name}.json", "w") as f:
+        json.dump(communities, f, indent=2)
 
 
 def __format_state(duplication_dict: dict):
@@ -55,7 +80,7 @@ def __format_state(duplication_dict: dict):
         is_remix_end = int(duplication_dict["Edge"]["EndP"]["IsRemix"])
         feature_end = duplication_dict["Edge"]["EndP"]["Feature"]
 
-    count = str(duplication_dict["Count"])
+    count = duplication_dict["Count"]
     euclid = duplication_dict["Euclid"]
 
     return FormattedState(
