@@ -14,12 +14,14 @@ class Length(NamedTuple):
     mean: int
     mean2: int
 
+
 class BoxPlot(NamedTuple):
     nested_list: list
     xlabel: str
     ylabel: str
     title: str
     file_name: str
+
 
 class MileStastics:
     def __init__(self):
@@ -28,7 +30,7 @@ class MileStastics:
 
     def set_data(self, miles_data: list):
         self.__MILES_DATA = miles_data
-    
+
     def set_second_data(self, miles_data: list):
         self.__MILES_SECOND_DATA = miles_data
 
@@ -43,7 +45,7 @@ class MileStastics:
         mean = np.mean(list_len)
         mean2 = np.mean(list_len2)
 
-        return Length(list_len, list_len2 , mean, mean2)
+        return Length(list_len, list_len2, mean, mean2)
 
     def get_duplication(self):
         list_duplication = []
@@ -86,10 +88,18 @@ class MileStastics:
                         }
                     )
         return list_duplication
-    
+
     def draw_boxplot(self):
         mile_lengths = self.get_length()
-        draw_boxplot(BoxPlot([mile_lengths.array, mile_lengths.array2], "BASICからDEVELOPING以上", "DEVELOPINGからMASTER", "", "tests"))
+        draw_boxplot(
+            BoxPlot(
+                [mile_lengths.array, mile_lengths.array2],
+                "BASICからDEVELOPING以上",
+                "DEVELOPINGからMASTER",
+                "",
+                "tests",
+            )
+        )
 
     def __find_duplication(self, list: list, value: dict):
         if not list:
