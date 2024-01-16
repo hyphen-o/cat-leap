@@ -1,5 +1,9 @@
 import matplotlib.pyplot as plt
 import japanize_matplotlib
+import sys
+
+sys.path.append("../")
+from constants import path
 
 
 def draw_boxplot(props):
@@ -10,10 +14,11 @@ def draw_boxplot(props):
           title: str
           file_name: str
     }"""
+
     flg, ax = plt.subplots()
 
     bp = ax.boxplot(props.nested_list, showmeans=True)
     ax.set_xticklabels([props.xlabel, props.ylabel])
     plt.title(props.title)
     plt.grid()
-    plt.savefig(f"{props.file_name}.png")
+    plt.savefig(path.BOXPLOT + props.file_name)

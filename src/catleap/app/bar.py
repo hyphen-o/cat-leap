@@ -13,6 +13,10 @@ bas_to_dev = json.load(json_file)
 dev_to_mas = json.load(json_file2)
 
 Msm = MileStastics()
+Msm.set_data(bas_to_dev)
+Msm.draw_duplication("bas_to_dev.png")
+
+
+Msm = MileStastics()
 Msm.set_data(dev_to_mas)
-# Msm.set_second_data(dev_to_mas)
-Msm.get_duplication_num()
+Msm.draw_duplication("dev_to_mas.png")

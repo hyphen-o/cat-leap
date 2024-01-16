@@ -1,16 +1,26 @@
 import matplotlib.pyplot as plt
 import japanize_matplotlib
+import sys
+
+sys.path.append("../")
+
+from constants import path
 
 
-def draw_bar(x: list, y: list):
-    # 棒グラフの描画
-    plt.bar(x, y, color="blue")
+def draw_bar(props):
+    """props = {
+          nested_list : List[list],
+          xlabel : str,
+          ylabel : str,
+          title: str
+          file_name: str
+    }"""
 
-    # グラフの装飾
-    plt.xlabel("重複数")
-    plt.ylabel("出現回数")
-    plt.title("DEVELOPINGからMASTER")
+    plt.bar(props.x, props.y, color="blue")
+
+    plt.xlabel(props.xlabel)
+    plt.ylabel(props.ylabel)
+    plt.title(props.title)
     plt.grid(True)
 
-    # グラフの表示
-    plt.savefig("DEV_TO_MAS_dup.png")
+    plt.savefig(path.BAR + props.file_name)

@@ -2,8 +2,11 @@ from graphviz import Digraph
 import networkx as nx
 import json
 import community
-import matplotlib.pyplot as plt
 from typing import NamedTuple
+import sys
+
+sys.path.append("../")
+from constants import path
 
 
 class FormattedState(NamedTuple):
@@ -55,12 +58,11 @@ def draw_digraph(duplication_list: list, graph_name="graphs", min_duplication=2)
                     weight=formatted_state.count,
                 )
 
-    dot.render(graph_name)
+    dot.render(path.DIGRAPH + graph_name)
     # Louvain法によるコミュニティ抽出
     communities = community.best_partition(G, weight="weight")
 
     # 結果の表示
-    print("Community Assignment:", communities)
     with open(f"{graph_name}.json", "w") as f:
         json.dump(communities, f, indent=2)
 

@@ -34,8 +34,6 @@ with open(path.BAS_TO_DEV + "comparator.json", "w") as f:
 df = pd.read_csv(path.CSV + "ando/result_pre/[RESULT]class_CTScore-8.csv")
 count = 0
 array = []
-print(users)
-print(len(users))
 for taple in users:
     row1 = df.loc[df["UserName"] == str(taple[0])]
     row2 = df.loc[df["UserName"] == str(taple[1])]
@@ -44,7 +42,6 @@ for taple in users:
     if not row2[["Class", "PredClass"]].values.tolist():
         continue
     # if (row1[['Class', 'PredClass']].values.tolist() != row2[['Class', 'PredClass']].values.tolist()):
-    #   print(taple[0], taple[1])
 
     if (row1["Class"].values[0] == 1 and row1["PredClass"].values[0] == 0) and (
         row2["Class"].values[0] == 1 and row2["PredClass"].values[0] == 0

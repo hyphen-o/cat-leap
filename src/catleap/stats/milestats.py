@@ -25,6 +25,15 @@ class BoxPlot(NamedTuple):
     file_name: str
 
 
+class Bar(NamedTuple):
+    x: list
+    y: list
+    xlabel: str
+    ylabel: str
+    title: str
+    file_name: str
+
+
 class MileStastics:
     def __init__(self):
         self.__MILES_DATA = []
@@ -39,38 +48,31 @@ class MileStastics:
     def get_length(self):
         list_len = []
         list_len2 = []
+        mean2 = 0
+        median2 = 0
+
         for USER_MILES in self.__MILES_DATA:
             list_len.append(len(USER_MILES) - 1)
         if self.__MILES_SECOND_DATA:
             for USER_MILES in self.__MILES_SECOND_DATA:
                 list_len2.append(len(USER_MILES) - 1)
+            mean2 = np.mean(list_len2)
+            median2 = np.median(list_len2)
         mean = np.mean(list_len)
-        mean2 = np.mean(list_len2)
         median = np.median(list_len)
-        median2 = np.median(list_len2)
 
         return Length(list_len, list_len2, mean, mean2, median, median2)
-
-    def get_duplication_num(self):
-        list_duplication = []
-        DUPLICATIONS = self.get_duplication()
-        for DUPLICATION in DUPLICATIONS:
-            list_duplication.append(DUPLICATION["Count"])
-        sorted_duplication = sorted(list_duplication)
-        unique_values, counts = zip(
-            *[
-                (value, sorted_duplication.count(value))
-                for value in set(sorted_duplication)
-            ]
-        )
-        print(unique_values, counts)
-        draw_bar(unique_values, counts)
 
     def get_duplication(self):
         list_duplication = []
         for USER_MILES in tqdm(self.__MILES_DATA):
             for index, MILE in enumerate(USER_MILES):
                 if index == len(USER_MILES) - 1:
+                    break
+                if not self.__is_grow_up(
+                    MILE["Before"]["Feature"],
+                    USER_MILES[index + 1]["Before"]["Feature"],
+                ):
                     break
 
                 edge = {
@@ -108,7 +110,21 @@ class MileStastics:
                     )
         return list_duplication
 
-    def draw_boxplot(self):
+    def draw_duplication(self, file_name="bar.png"):
+        list_duplication = []
+        DUPLICATIONS = self.get_duplication()
+        for DUPLICATION in DUPLICATIONS:
+            list_duplication.append(DUPLICATION["Count"])
+        sorted_duplication = sorted(list_duplication)
+        unique_values, counts = zip(
+            *[
+                (value, sorted_duplication.count(value))
+                for value in set(sorted_duplication)
+            ]
+        )
+        draw_bar(Bar(unique_values, counts, "重複数", "出現回数", "", file_name))
+
+    def draw_boxplot(self, file_name="box.png"):
         mile_lengths = self.get_length()
         draw_boxplot(
             BoxPlot(
@@ -116,9 +132,15 @@ class MileStastics:
                 "BASICからDEVELOPING以上",
                 "DEVELOPINGからMASTER",
                 "",
-                "tests",
+                file_name,
             )
         )
+
+    def __is_grow_up(self, scores_start, scores_end):
+        for score_start, score_end in zip(scores_start, scores_end):
+            if score_start < score_end:
+                return True
+        return False
 
     def __find_duplication(self, list: list, value: dict):
         if not list:
