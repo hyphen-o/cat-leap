@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 sys.path.append("../")
 from constants import skill
-from graph import draw_boxplot
+from graph import draw_boxplot, draw_bar
 
 
 class Length(NamedTuple):
@@ -50,6 +50,17 @@ class MileStastics:
         median2 = np.median(list_len2)
 
         return Length(list_len, list_len2, mean, mean2, median, median2)
+    
+    def get_duplication_num(self):
+        list_duplication = []
+        DUPLICATIONS = self.get_duplication()
+        for DUPLICATION in DUPLICATIONS:
+            list_duplication.append(DUPLICATION["Count"])
+        sorted_duplication = sorted(list_duplication)
+        unique_values, counts = zip(*[(value, sorted_duplication.count(value)) for value in set(sorted_duplication)])
+        print(unique_values, counts)
+        draw_bar(unique_values, counts)
+    
 
     def get_duplication(self):
         list_duplication = []
