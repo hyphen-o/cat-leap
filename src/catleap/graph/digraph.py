@@ -57,7 +57,7 @@ def draw_digraph(duplication_list: list, graph_name="graphs", min_duplication=2)
 
     dot.render(graph_name)
     # Louvain法によるコミュニティ抽出
-    communities = community.best_partition(G, weight='weight')
+    communities = community.best_partition(G, weight="weight")
 
     # 結果の表示
     print("Community Assignment:", communities)
