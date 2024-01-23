@@ -18,25 +18,27 @@ class MileStoneManager(MileStoneEvaluater):
         self.__bas_to_dev = []
         self.__dev_to_mas = []
 
-    def get_milestone(self):
+    def get_milestone(self, is_all=False):
         for file_name in tqdm(os.listdir(self.__DIR_PATH)):
             personal_data = pd.read_csv(path.CT_CSV_SPLITTED + file_name)
             super().set_data(personal_data)
-            milestones = super().get_milestone()
+            milestones = super().get_milestone(is_all)
             if (
-                milestones["BASIC_TO_DEVELOPING"]
-                and len(milestones["BASIC_TO_DEVELOPING"]) > 1
+                milestones["BASIC_TO_DEVELOPING"]["MILES"]
+                and len(milestones["BASIC_TO_DEVELOPING"]["MILES"]) > 1
             ):
                 self.__bas_to_dev.append(milestones["BASIC_TO_DEVELOPING"])
             if (
-                milestones["DEVELOPING_TO_MASTER"]
-                and len(milestones["DEVELOPING_TO_MASTER"]) > 1
+                milestones["DEVELOPING_TO_MASTER"]["MILES"]
+                and len(milestones["DEVELOPING_TO_MASTER"]["MILES"]) > 1
             ):
                 self.__dev_to_mas.append(milestones["DEVELOPING_TO_MASTER"])
 
-        with open(path.BAS_TO_DEV + "out.json", "w") as f:
+        OUT_NAME = "out-all.json" if is_all else "out.json"
+
+        with open(path.BAS_TO_DEV + OUT_NAME, "w") as f:
             json.dump(self.__bas_to_dev, f, indent=2)
-        with open(path.DEV_TO_MAS + "out.json", "w") as f:
+        with open(path.DEV_TO_MAS + OUT_NAME, "w") as f:
             json.dump(self.__dev_to_mas, f, indent=2)
 
         return MileStones(self.__bas_to_dev, self.__dev_to_mas)

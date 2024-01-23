@@ -7,10 +7,15 @@ sys.path.append("../")
 class MileStoneEvaluater:
     def set_data(self, data: pd.DataFrame):
         self.__personal_data = data
-        self.__milestones = {"BASIC_TO_DEVELOPING": [], "DEVELOPING_TO_MASTER": []}
+        self.__milestones = {"BASIC_TO_DEVELOPING": {"CLASS": 0, "USER_NAME": "" , "MILES": []}, "DEVELOPING_TO_MASTER": {"CLASS": 0, "USER_NAME": "",  "MILES": []}}
 
-    def get_milestone(self):
+    def get_milestone(self, is_all=False):
         user_level = self.__get_user_level_init()
+
+        if len(self.__personal_data):
+            self.__milestones["BASIC_TO_DEVELOPING"]["USER_NAME"] = str(self.__personal_data.iloc[0]["UserName"])
+            self.__milestones["DEVELOPING_TO_MASTER"]["USER_NAME"] = str(self.__personal_data.iloc[0]["UserName"])
+
         tmp_array = []
         for row in self.__personal_data.itertuples():
             CURRENT_LEVEL = self.__categorize_level(row.CTScore)
@@ -41,19 +46,25 @@ class MileStoneEvaluater:
                         ],
                     },
                     "IsRemix": row.IsRemix,
-                    "Level": CURRENT_LEVEL,
-                    "UserName": row.UserName,
+                    "Level": CURRENT_LEVEL
                 }
             )
 
             # オリジナル作品で習熟度が向上したら記録
             if self.__is_grown(user_level, CURRENT_LEVEL) and row.IsRemix == 0:
                 if user_level == "BASIC":
-                    self.__milestones["BASIC_TO_DEVELOPING"] = tmp_array.copy()
+                    self.__milestones["BASIC_TO_DEVELOPING"]["MILES"] = tmp_array.copy()
+                    self.__milestones["BASIC_TO_DEVELOPING"]["CLASS"] = 1
                 elif user_level == "DEVELOPING":
-                    self.__milestones["DEVELOPING_TO_MASTER"] = tmp_array.copy()
+                    self.__milestones["DEVELOPING_TO_MASTER"]["MILES"] = tmp_array.copy()
+                    self.__milestones["DEVELOPING_TO_MASTER"]["CLASS"] = 1
                 tmp_array.clear()
                 user_level = CURRENT_LEVEL
+        
+        if is_all and self.__milestones["BASIC_TO_DEVELOPING"]["CLASS"] == 0:
+            self.__milestones["BASIC_TO_DEVELOPING"]["MILES"] = tmp_array.copy()
+        if is_all and self.__milestones["DEVELOPING_TO_MASTER"]["CLASS"] == 0:
+            self.__milestones["DEVELOPING_TO_MASTER"]["MILES"] = tmp_array.copy()
 
         return self.__milestones
 

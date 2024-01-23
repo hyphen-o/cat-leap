@@ -74,6 +74,8 @@ class MileStastics:
                     USER_MILES[index + 1]["Before"]["Feature"],
                 ):
                     break
+                if MILE["IsRemix"] or USER_MILES[index + 1]["IsRemix"]:
+                    break
 
                 edge = {
                     "Edge": {
@@ -138,9 +140,9 @@ class MileStastics:
 
     def __is_grow_up(self, scores_start, scores_end):
         for score_start, score_end in zip(scores_start, scores_end):
-            if score_start < score_end:
-                return True
-        return False
+            if score_start > score_end:
+                return False
+        return True
 
     def __find_duplication(self, list: list, value: dict):
         if not list:

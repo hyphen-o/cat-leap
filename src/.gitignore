@@ -3,3 +3,7 @@ __pycache__
 catleap/app/.DS_Store
 catleap/out/*
 catleap/!out/out.zip
+
+catleap/model/exp_binary
+catleap/model/exp_count
+catleap/model/ct_score

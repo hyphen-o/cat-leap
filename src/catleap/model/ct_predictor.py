@@ -8,6 +8,7 @@ from sklearn.model_selection import StratifiedKFold
 import json
 import statistics
 import os
+from tqdm import tqdm
 
 
 def binary_classify(df):
@@ -101,15 +102,15 @@ if __name__ == "__main__":
 
             # ファイル出力
             class_results.to_csv(
-                path + "[RESULT]class_CTScore-{}.csv".format(ctscore), index=True
+                path + "[RESULT]class_CTScore-{}_original.csv".format(ctscore), index=True
             )
-            with open(path + "[RESULT]skf_CTScore-{}.json".format(ctscore), "w") as f:
+            with open(path + "[RESULT]skf_CTScore-{}_original.json".format(ctscore), "w") as f:
                 f.write(json.dumps(dict_pred_results, indent=4))
 
     # ==========================================================
     # 予測精度の出力
     # ==========================================================
-    with open("./prediction_result.md", "w") as f:
+    with open("./prediction_result_original.md", "w") as f:
         for path in ["./exp_count/", "./exp_binary/"]:
             caption = "# 説明変数：獲得回数" if "count" in path else "# 説明変数：獲得経験"
             f.write(caption + "\n")
@@ -118,7 +119,7 @@ if __name__ == "__main__":
 
             for cs in ["8", "15"]:
                 # jsonの読み込み
-                json_open = open(path + "[RESULT]skf_CTScore-" + cs + ".json", "r")
+                json_open = open(path + "[RESULT]skf_CTScore-" + cs + "_original.json", "r")
                 json_load = json.load(json_open)
 
                 # 精度の平均値を算出
