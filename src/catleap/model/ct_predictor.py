@@ -102,9 +102,12 @@ if __name__ == "__main__":
 
             # ファイル出力
             class_results.to_csv(
-                path + "[RESULT]class_CTScore-{}_original.csv".format(ctscore), index=True
+                path + "[RESULT]class_CTScore-{}_original.csv".format(ctscore),
+                index=True,
             )
-            with open(path + "[RESULT]skf_CTScore-{}_original.json".format(ctscore), "w") as f:
+            with open(
+                path + "[RESULT]skf_CTScore-{}_original.json".format(ctscore), "w"
+            ) as f:
                 f.write(json.dumps(dict_pred_results, indent=4))
 
     # ==========================================================
@@ -119,7 +122,9 @@ if __name__ == "__main__":
 
             for cs in ["8", "15"]:
                 # jsonの読み込み
-                json_open = open(path + "[RESULT]skf_CTScore-" + cs + "_original.json", "r")
+                json_open = open(
+                    path + "[RESULT]skf_CTScore-" + cs + "_original.json", "r"
+                )
                 json_load = json.load(json_open)
 
                 # 精度の平均値を算出
