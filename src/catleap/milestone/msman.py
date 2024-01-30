@@ -36,9 +36,12 @@ class MileStoneManager(MileStoneEvaluater):
 
         OUT_NAME = "out-all.json" if is_all else "out.json"
 
+        sorted_bas_to_dev = sorted(self.__bas_to_dev, key=lambda x: x["LENGTH"])
+        sorted_dev_to_mas = sorted(self.__dev_to_mas, key=lambda x: x["LENGTH"])
+
         with open(path.BAS_TO_DEV + OUT_NAME, "w") as f:
-            json.dump(self.__bas_to_dev, f, indent=2)
+            json.dump(sorted_bas_to_dev, f, indent=2)
         with open(path.DEV_TO_MAS + OUT_NAME, "w") as f:
-            json.dump(self.__dev_to_mas, f, indent=2)
+            json.dump(sorted_dev_to_mas, f, indent=2)
 
         return MileStones(self.__bas_to_dev, self.__dev_to_mas)

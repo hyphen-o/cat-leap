@@ -9,4 +9,4 @@ from constants import path
 
 # df = pd.read_csv(path.CT_CSV_ + "ct_sample.csv")
 msm = MileStoneManager(path.CT_CSV_SPLITTED)
-dir = msm.get_milestone(True)
+dir = msm.get_milestone()

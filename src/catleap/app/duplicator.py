@@ -17,12 +17,12 @@ Ms.set_data(bas_to_dev)
 duplication_list = Ms.get_duplication()
 with open(path.BAS_TO_DEV + "duplication.json", "w") as f:
     json.dump(duplication_list, f, indent=2)
-length = Ms.get_length()
-draw_digraph(duplication_list, "bas_to_dev", 2)
+# length = Ms.get_length()
+# draw_digraph(duplication_list, "bas_to_dev", 2)
 
 Ms.set_data(dev_to_mas)
 duplication_list = Ms.get_duplication()
 with open(path.DEV_TO_MAS + "duplication.json", "w") as f:
     json.dump(duplication_list, f, indent=2)
-length = Ms.get_length()
-draw_digraph(duplication_list, "dev_to_mas", 2)
+# length = Ms.get_length()
+# draw_digraph(duplication_list, "dev_to_mas", 2)

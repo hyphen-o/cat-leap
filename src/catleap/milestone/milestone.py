@@ -8,8 +8,8 @@ class MileStoneEvaluater:
     def set_data(self, data: pd.DataFrame):
         self.__personal_data = data
         self.__milestones = {
-            "BASIC_TO_DEVELOPING": {"CLASS": 0, "USER_NAME": "", "MILES": []},
-            "DEVELOPING_TO_MASTER": {"CLASS": 0, "USER_NAME": "", "MILES": []},
+            "BASIC_TO_DEVELOPING": {"CLASS": 0, "USER_NAME": "", "LENGTH": 0, "MILES": []},
+            "DEVELOPING_TO_MASTER": {"CLASS": 0, "USER_NAME": "", "LENGTH": 0, "MILES": []},
         }
 
     def get_milestone(self, is_all=False):
@@ -62,18 +62,22 @@ class MileStoneEvaluater:
                 if user_level == "BASIC":
                     self.__milestones["BASIC_TO_DEVELOPING"]["MILES"] = tmp_array.copy()
                     self.__milestones["BASIC_TO_DEVELOPING"]["CLASS"] = 1
+                    self.__milestones["BASIC_TO_DEVELOPING"]["LENGTH"] = len(tmp_array)
                 elif user_level == "DEVELOPING":
                     self.__milestones["DEVELOPING_TO_MASTER"][
                         "MILES"
                     ] = tmp_array.copy()
                     self.__milestones["DEVELOPING_TO_MASTER"]["CLASS"] = 1
+                    self.__milestones["DEVELOPING_TO_MASTER"]["LENGTH"] = len(tmp_array)
                 tmp_array.clear()
                 user_level = CURRENT_LEVEL
 
         if is_all and self.__milestones["BASIC_TO_DEVELOPING"]["CLASS"] == 0:
             self.__milestones["BASIC_TO_DEVELOPING"]["MILES"] = tmp_array.copy()
+            self.__milestones["BASIC_TO_DEVELOPING"]["LENGTH"] = len(tmp_array)
         if is_all and self.__milestones["DEVELOPING_TO_MASTER"]["CLASS"] == 0:
             self.__milestones["DEVELOPING_TO_MASTER"]["MILES"] = tmp_array.copy()
+            self.__milestones["DEVELOPING_TO_MASTER"]["LENGTH"] = len(tmp_array)
 
         return self.__milestones
 

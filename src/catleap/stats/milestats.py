@@ -66,16 +66,16 @@ class MileStastics:
     def get_duplication(self):
         list_duplication = []
         for USER_MILES in tqdm(self.__MILES_DATA):
-            for index, MILE in enumerate(USER_MILES):
-                if index == len(USER_MILES) - 1:
+            for index, MILE in enumerate(USER_MILES["MILES"]):
+                if index == len(USER_MILES["MILES"]) - 1:
                     break
-                if not self.__is_grow_up(
-                    MILE["Before"]["Feature"],
-                    USER_MILES[index + 1]["Before"]["Feature"],
-                ):
-                    break
-                if MILE["IsRemix"] or USER_MILES[index + 1]["IsRemix"]:
-                    break
+                # if not self.__is_grow_up(
+                #     MILE["Before"]["Feature"],
+                #     USER_MILES[index + 1]["Before"]["Feature"],
+                # ):
+                    # break
+                # if MILE["IsRemix"] or USER_MILES[index + 1]["IsRemix"]:
+                #     break
 
                 edge = {
                     "Edge": {
@@ -85,11 +85,11 @@ class MileStastics:
                             "Level": MILE["Level"],
                         },
                         "EndP": {
-                            **USER_MILES[index + 1]["Before"],
-                            "IsRemix": USER_MILES[index + 1]["IsRemix"],
-                            "Level": USER_MILES[index + 1]["Level"],
+                            **USER_MILES["MILES"][index + 1]["Before"],
+                            "IsRemix": USER_MILES["MILES"][index + 1]["IsRemix"],
+                            "Level": USER_MILES["MILES"][index + 1]["Level"],
                         }
-                        if index != len(USER_MILES) - 2
+                        if index != len(USER_MILES["MILES"]) - 2
                         else "NEXT_LEVEL",
                     }
                 }
@@ -111,6 +111,7 @@ class MileStastics:
                         }
                     )
         return list_duplication
+    
 
     def draw_duplication(self, file_name="bar.png"):
         list_duplication = []
@@ -140,9 +141,9 @@ class MileStastics:
 
     def __is_grow_up(self, scores_start, scores_end):
         for score_start, score_end in zip(scores_start, scores_end):
-            if score_start > score_end:
-                return False
-        return True
+            if score_start < score_end:
+                return True
+        return False
 
     def __find_duplication(self, list: list, value: dict):
         if not list:
