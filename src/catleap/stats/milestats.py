@@ -73,7 +73,7 @@ class MileStastics:
                 #     MILE["Before"]["Feature"],
                 #     USER_MILES[index + 1]["Before"]["Feature"],
                 # ):
-                    # break
+                # break
                 # if MILE["IsRemix"] or USER_MILES[index + 1]["IsRemix"]:
                 #     break
 
@@ -111,7 +111,6 @@ class MileStastics:
                         }
                     )
         return list_duplication
-    
 
     def draw_duplication(self, file_name="bar.png"):
         list_duplication = []

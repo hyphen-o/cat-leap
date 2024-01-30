@@ -8,8 +8,18 @@ class MileStoneEvaluater:
     def set_data(self, data: pd.DataFrame):
         self.__personal_data = data
         self.__milestones = {
-            "BASIC_TO_DEVELOPING": {"CLASS": 0, "USER_NAME": "", "LENGTH": 0, "MILES": []},
-            "DEVELOPING_TO_MASTER": {"CLASS": 0, "USER_NAME": "", "LENGTH": 0, "MILES": []},
+            "BASIC_TO_DEVELOPING": {
+                "CLASS": 0,
+                "USER_NAME": "",
+                "LENGTH": 0,
+                "MILES": [],
+            },
+            "DEVELOPING_TO_MASTER": {
+                "CLASS": 0,
+                "USER_NAME": "",
+                "LENGTH": 0,
+                "MILES": [],
+            },
         }
 
     def get_milestone(self, is_all=False):
