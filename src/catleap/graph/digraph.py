@@ -23,25 +23,28 @@ class FormattedState(NamedTuple):
 def draw_digraph(duplication_list: list, graph_name="graphs", min_duplication=2):
     dot = Digraph(format="png")
     G = nx.Graph()
+    dot.attr(
+        "node",
+        shape="circle",
+    )
     for duplication_dict in duplication_list:
         formatted_state = __format_state(duplication_dict)
         if int(formatted_state.count) > min_duplication:
             if formatted_state.euclid >= 0.0:
                 dot.node(
                     formatted_state.start,
-                    formatted_state.start,
-                    color="orange" if formatted_state.is_remix_start else "black",
+                    "",
+                    color="#282828",
                 )
                 dot.node(
                     formatted_state.end,
-                    formatted_state.end,
-                    color="orange" if formatted_state.is_remix_end else "black",
+                    "",
+                    color="#282828",
                 )
                 dot.edge(
                     formatted_state.start,
                     formatted_state.end,
-                    label=str(formatted_state.count),
-                    color="red",
+                    color="darkblue",
                 )
                 G.add_node(
                     formatted_state.start,

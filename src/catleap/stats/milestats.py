@@ -2,9 +2,10 @@ from typing import NamedTuple
 import numpy as np
 import sys
 from tqdm import tqdm
+from collections import Counter
 
 sys.path.append("../")
-from constants import skill
+from constants import skill, path
 from graph import draw_boxplot, draw_bar
 
 
@@ -83,11 +84,13 @@ class MileStastics:
                             **MILE["Before"],
                             "IsRemix": MILE["IsRemix"],
                             "Level": MILE["Level"],
+                            "Num": MILE["Num"]
                         },
                         "EndP": {
                             **USER_MILES["MILES"][index + 1]["Before"],
                             "IsRemix": USER_MILES["MILES"][index + 1]["IsRemix"],
                             "Level": USER_MILES["MILES"][index + 1]["Level"],
+                            "Num": USER_MILES["MILES"][index + 1]["Num"]
                         }
                         if index != len(USER_MILES["MILES"]) - 2
                         else "NEXT_LEVEL",
@@ -111,6 +114,32 @@ class MileStastics:
                         }
                     )
         return list_duplication
+    
+    def get_all_duplication(self, duplications):
+        dict = self.__MILES_DATA.copy()
+        for user_num, USER_MILES in enumerate(tqdm(self.__MILES_DATA)):
+            for index, MILE in enumerate(USER_MILES["MILES"]):
+                if index == len(USER_MILES["MILES"]) - 1:
+                    break
+                dict[user_num]["COUNT"] = 0
+
+                for DUPLICATION in duplications:
+                    if MILE["Before"]["Feature"] == DUPLICATION["Edge"]["StartP"]["Feature"]:
+                        if index == len(USER_MILES["MILES"]) - 2:
+                            if DUPLICATION["Edge"]["EndP"] == "NEXT_LEVEL":
+                                dict[user_num]["COUNT"] += DUPLICATION["Count"]
+                        else:
+                            if DUPLICATION["Edge"]["EndP"] == "NEXT_LEVEL":
+                                continue
+                            if USER_MILES["MILES"][index + 1]["Before"]["Feature"] == DUPLICATION["Edge"]["EndP"]["Feature"]:
+                                dict[user_num]["COUNT"] += DUPLICATION["Count"]
+                
+                dict[user_num]["COUNT"] = dict[user_num]["COUNT"] / (len(USER_MILES["MILES"]) - 1)
+                dict[user_num]["LENGTH"] = USER_MILES["LENGTH"]
+                    
+        dict = sorted(dict, key=lambda x: x["COUNT"])
+        
+        return dict
 
     def draw_duplication(self, file_name="bar.png"):
         list_duplication = []
@@ -148,7 +177,7 @@ class MileStastics:
         if not list:
             return -1
         for index, dict in enumerate(list):
-            if value["Edge"] == dict["Edge"]:
+            if Counter(value["Edge"]) == Counter(dict["Edge"]):
                 return index
         return -1
 
