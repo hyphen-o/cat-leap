@@ -34,6 +34,7 @@ class MileStoneEvaluater:
             )
 
         tmp_array = []
+        index = 0
         for row in self.__personal_data.itertuples():
             CURRENT_LEVEL = self.__categorize_level(row.CTScore)
 
@@ -64,8 +65,10 @@ class MileStoneEvaluater:
                     },
                     "IsRemix": row.IsRemix,
                     "Level": CURRENT_LEVEL,
+                    "Num": index
                 }
             )
+            index += 1
 
             # オリジナル作品で習熟度が向上したら記録
             if self.__is_grown(user_level, CURRENT_LEVEL) and row.IsRemix == 0:
@@ -73,6 +76,7 @@ class MileStoneEvaluater:
                     self.__milestones["BASIC_TO_DEVELOPING"]["MILES"] = tmp_array.copy()
                     self.__milestones["BASIC_TO_DEVELOPING"]["CLASS"] = 1
                     self.__milestones["BASIC_TO_DEVELOPING"]["LENGTH"] = len(tmp_array)
+                    index = 0
                 elif user_level == "DEVELOPING":
                     self.__milestones["DEVELOPING_TO_MASTER"][
                         "MILES"
@@ -81,6 +85,7 @@ class MileStoneEvaluater:
                     self.__milestones["DEVELOPING_TO_MASTER"]["LENGTH"] = len(tmp_array)
                 tmp_array.clear()
                 user_level = CURRENT_LEVEL
+
 
         if is_all and self.__milestones["BASIC_TO_DEVELOPING"]["CLASS"] == 0:
             self.__milestones["BASIC_TO_DEVELOPING"]["MILES"] = tmp_array.copy()
