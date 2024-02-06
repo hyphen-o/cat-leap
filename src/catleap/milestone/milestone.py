@@ -86,7 +86,6 @@ class MileStoneEvaluater:
                 tmp_array.clear()
                 user_level = CURRENT_LEVEL
 
-
         if is_all and self.__milestones["BASIC_TO_DEVELOPING"]["CLASS"] == 0:
             self.__milestones["BASIC_TO_DEVELOPING"]["MILES"] = tmp_array.copy()
             self.__milestones["BASIC_TO_DEVELOPING"]["LENGTH"] = len(tmp_array)

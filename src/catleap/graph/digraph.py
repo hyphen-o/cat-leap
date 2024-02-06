@@ -22,10 +22,7 @@ class FormattedState(NamedTuple):
 def draw_digraph(duplication_list: list, graph_name="graphs", min_duplication=2):
     dot = Digraph(format="png")
     G = nx.Graph()
-    dot.attr(
-        "node",
-        shape="circle"
-    )
+    dot.attr("node", shape="circle")
     for duplication_dict in duplication_list:
         formatted_state = __format_state(duplication_dict)
         if int(formatted_state.count) > min_duplication:
@@ -37,7 +34,11 @@ def draw_digraph(duplication_list: list, graph_name="graphs", min_duplication=2)
             )
             dot.node(
                 formatted_state.end,
-                get_mark(duplication_dict["Edge"]["EndP"]["Mark"] if duplication_dict["Edge"]["EndP"] != "NEXT_LEVEL" else "END"),
+                get_mark(
+                    duplication_dict["Edge"]["EndP"]["Mark"]
+                    if duplication_dict["Edge"]["EndP"] != "NEXT_LEVEL"
+                    else "END"
+                ),
                 color="#282828",
             )
             dot.edge(
@@ -67,6 +68,7 @@ def draw_digraph(duplication_list: list, graph_name="graphs", min_duplication=2)
     # 結果の表示
     with open(f"{graph_name}.json", "w") as f:
         json.dump(communities, f, indent=2)
+
 
 def get_mark(num: int):
     # dict = {
@@ -152,7 +154,7 @@ def get_mark(num: int):
         "45": "k",
         # "37": "l",
         # "38": "m",
-        "END": ""
+        "END": "",
     }
     if str(num) not in dict.keys():
         return "-"

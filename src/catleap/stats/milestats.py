@@ -114,7 +114,7 @@ class MileStastics:
                         }
                     )
         return list_duplication
-    
+
     def get_all_duplication(self, duplications):
         dict = self.__MILES_DATA.copy()
         for user_num, USER_MILES in enumerate(tqdm(self.__MILES_DATA)):
@@ -124,21 +124,29 @@ class MileStastics:
                 dict[user_num]["COUNT"] = 0
 
                 for DUPLICATION in duplications:
-                    if MILE["Before"]["Feature"] == DUPLICATION["Edge"]["StartP"]["Feature"]:
+                    if (
+                        MILE["Before"]["Feature"]
+                        == DUPLICATION["Edge"]["StartP"]["Feature"]
+                    ):
                         if index == len(USER_MILES["MILES"]) - 2:
                             if DUPLICATION["Edge"]["EndP"] == "NEXT_LEVEL":
                                 dict[user_num]["COUNT"] += DUPLICATION["Count"]
                         else:
                             if DUPLICATION["Edge"]["EndP"] == "NEXT_LEVEL":
                                 continue
-                            if USER_MILES["MILES"][index + 1]["Before"]["Feature"] == DUPLICATION["Edge"]["EndP"]["Feature"]:
+                            if (
+                                USER_MILES["MILES"][index + 1]["Before"]["Feature"]
+                                == DUPLICATION["Edge"]["EndP"]["Feature"]
+                            ):
                                 dict[user_num]["COUNT"] += DUPLICATION["Count"]
-                
-                dict[user_num]["COUNT"] = dict[user_num]["COUNT"] / (len(USER_MILES["MILES"]) - 1)
+
+                dict[user_num]["COUNT"] = dict[user_num]["COUNT"] / (
+                    len(USER_MILES["MILES"]) - 1
+                )
                 dict[user_num]["LENGTH"] = USER_MILES["LENGTH"]
-                    
+
         dict = sorted(dict, key=lambda x: x["COUNT"])
-        
+
         return dict
 
     def draw_duplication(self, file_name="bar.png"):

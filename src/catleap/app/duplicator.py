@@ -12,6 +12,7 @@ json_file2 = open(path.DEV_TO_MAS + "splitted/marked-all.json", "r")
 bas_to_dev = json.load(json_file)
 dev_to_mas = json.load(json_file2)
 
+
 def get_duplication(MILES):
     list_duplication = []
     for index, MILE in enumerate(MILES):
@@ -22,11 +23,10 @@ def get_duplication(MILES):
 
         edge = {
             "Edge": {
-                "StartP": {
-                    **MILE
-                },
-
-                "EndP": MILES[index + 1] if MILES[index + 1] == "NEXT_LEVEL" else MILES[index + 1]
+                "StartP": {**MILE},
+                "EndP": MILES[index + 1]
+                if MILES[index + 1] == "NEXT_LEVEL"
+                else MILES[index + 1]
                 if index != len(MILES) - 2
                 else "NEXT_LEVEL",
             }
@@ -50,6 +50,7 @@ def get_duplication(MILES):
         )
     return list_duplication
 
+
 def __find_duplication(list: list, value: dict):
     if not list:
         return -1
@@ -58,17 +59,20 @@ def __find_duplication(list: list, value: dict):
             return index
     return -1
 
+
 def __is_next_level(end: str or dict):
     if type(end) is str:
         return True
     else:
         return False
 
+
 def __calculate_euclid(x: dict, y: dict):
     sum = 0
     for concept in skill.CT_SKILL:
         sum += (int(x[concept]) - int(y[concept])) ** 2
     return round(sum**0.5, 3)
+
 
 duplication_list = get_duplication(bas_to_dev)
 print(duplication_list)
@@ -80,4 +84,3 @@ draw_digraph(duplication_list, "bas_to_dev_marked", 0)
 # with open(path.DEV_TO_MAS + "duplication-target.json", "w") as f:
 #     json.dump(duplication_list, f, indent=2)
 # draw_digraph(duplication_list, "dev_to_mas_marked", 0)
-

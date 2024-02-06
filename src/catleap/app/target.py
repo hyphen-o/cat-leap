@@ -19,23 +19,23 @@ dev_to_mas_out = json.load(json_fil4)
 
 target_b_to_d = []
 for index, out in enumerate(bas_to_dev_out):
-  if out["MILES"][len(out["MILES"]) - 1]["Before"]["Feature"] == b_to_d[0]["Feature"]:
-    target_b_to_d.append(out)
-    del bas_to_dev_out[index]
+    if out["MILES"][len(out["MILES"]) - 1]["Before"]["Feature"] == b_to_d[0]["Feature"]:
+        target_b_to_d.append(out)
+        del bas_to_dev_out[index]
 for index, out in enumerate(bas_to_dev_out):
-  if out["MILES"][len(out["MILES"]) - 1]["Before"]["Feature"] == b_to_d[0]["Feature"]:
-    target_b_to_d.append(out)
-    del bas_to_dev_out[index]
+    if out["MILES"][len(out["MILES"]) - 1]["Before"]["Feature"] == b_to_d[0]["Feature"]:
+        target_b_to_d.append(out)
+        del bas_to_dev_out[index]
 
 target_d_to_m = []
 for index, out in enumerate(dev_to_mas_out):
-  if out["MILES"][len(out["MILES"]) - 1]["Before"]["Feature"] == d_to_m[0]["Feature"]:
-    target_d_to_m.append(out)
-    del dev_to_mas_out[index]
+    if out["MILES"][len(out["MILES"]) - 1]["Before"]["Feature"] == d_to_m[0]["Feature"]:
+        target_d_to_m.append(out)
+        del dev_to_mas_out[index]
 for index, out in enumerate(dev_to_mas_out):
-  if out["MILES"][len(out["MILES"]) - 1]["Before"]["Feature"] == d_to_m[0]["Feature"]:
-    target_d_to_m.append(out)
-    del dev_to_mas_out[index]
+    if out["MILES"][len(out["MILES"]) - 1]["Before"]["Feature"] == d_to_m[0]["Feature"]:
+        target_d_to_m.append(out)
+        del dev_to_mas_out[index]
 
 with open(path.BAS_TO_DEV + "target.json", "w") as f:
     json.dump(target_b_to_d, f, indent=2)
