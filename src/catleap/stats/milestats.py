@@ -84,13 +84,13 @@ class MileStastics:
                             **MILE["Before"],
                             "IsRemix": MILE["IsRemix"],
                             "Level": MILE["Level"],
-                            "Num": MILE["Num"]
+                            # "Num": MILE["Num"]
                         },
                         "EndP": {
                             **USER_MILES["MILES"][index + 1]["Before"],
                             "IsRemix": USER_MILES["MILES"][index + 1]["IsRemix"],
                             "Level": USER_MILES["MILES"][index + 1]["Level"],
-                            "Num": USER_MILES["MILES"][index + 1]["Num"]
+                            # "Num": USER_MILES["MILES"][index + 1]["Num"]
                         }
                         if index != len(USER_MILES["MILES"]) - 2
                         else "NEXT_LEVEL",

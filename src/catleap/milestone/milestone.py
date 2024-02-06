@@ -64,8 +64,8 @@ class MileStoneEvaluater:
                         ],
                     },
                     "IsRemix": row.IsRemix,
-                    "Level": CURRENT_LEVEL,
-                    "Num": index
+                    "Level": CURRENT_LEVEL
+                    # "Num": index
                 }
             )
             index += 1

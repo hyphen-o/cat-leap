@@ -9,6 +9,7 @@ from constants import path
 from graph import draw_digraph
 
 dupli_array = []
+all_result = []
 for i in range(2, 20):
   ct_array = open(path.DEV_TO_MAS + f"/splitted/{i}-max.json", "r")
   ct_array = json.load(ct_array)
@@ -37,8 +38,14 @@ for i in range(2, 20):
         dupli_array.append(node)
         flat_array[index]["Mark"] = int(len(dupli_array)) - 1
   
+  all_result += flat_array
+  
   with open(path.DEV_TO_MAS + f"/splitted/marked-{i}.json", "w") as f:
       json.dump(flat_array, f, indent=2)
+
+with open(path.DEV_TO_MAS + f"/splitted/marked-all.json", "w") as f:
+    json.dump(all_result, f, indent=2)
+
 
 
       
