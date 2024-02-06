@@ -64,8 +64,8 @@ class MileStoneEvaluater:
                         ],
                     },
                     "IsRemix": row.IsRemix,
-                    "Level": CURRENT_LEVEL,
-                    "Num": index
+                    "Level": CURRENT_LEVEL
+                    # "Num": index
                 }
             )
             index += 1
@@ -85,7 +85,6 @@ class MileStoneEvaluater:
                     self.__milestones["DEVELOPING_TO_MASTER"]["LENGTH"] = len(tmp_array)
                 tmp_array.clear()
                 user_level = CURRENT_LEVEL
-
 
         if is_all and self.__milestones["BASIC_TO_DEVELOPING"]["CLASS"] == 0:
             self.__milestones["BASIC_TO_DEVELOPING"]["MILES"] = tmp_array.copy()

@@ -17,29 +17,29 @@ bas_to_dev_dup = json.load(dup_file)
 dev_to_mas = json.load(json_file2)
 dev_to_mas_dup = json.load(dup_file2)
 
-goal_dict = [
-]
+goal_dict = []
 for USER_MILES in tqdm(dev_to_mas):
-  GOAL_MILE = USER_MILES["MILES"][len(USER_MILES["MILES"]) - 1]
-  flg = True
-  for index, target in enumerate(goal_dict):
-    if target["Feature"] == GOAL_MILE["Before"]["Feature"]:
-      goal_dict[index]["COUNT"] += 1
-      flg = False
-      break
-  
-  if flg:
-    goal_dict.append({
-      "COUNT": 1,
-      "Feature": GOAL_MILE["Before"]["Feature"],
-      "CTScore": GOAL_MILE["Before"]["CTScore"]
-    })
+    GOAL_MILE = USER_MILES["MILES"][len(USER_MILES["MILES"]) - 1]
+    flg = True
+    for index, target in enumerate(goal_dict):
+        if target["Feature"] == GOAL_MILE["Before"]["Feature"]:
+            goal_dict[index]["COUNT"] += 1
+            flg = False
+            break
+
+    if flg:
+        goal_dict.append(
+            {
+                "COUNT": 1,
+                "Feature": GOAL_MILE["Before"]["Feature"],
+                "CTScore": GOAL_MILE["Before"]["CTScore"],
+            }
+        )
 
 sorted_goal = sorted(goal_dict, key=lambda x: x["COUNT"], reverse=True)
 
 with open(path.DEV_TO_MAS + "goals.json", "w") as f:
     json.dump(sorted_goal, f, indent=2)
-
 
 
 Ms = MileStastics()
