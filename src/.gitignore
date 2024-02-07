@@ -7,3 +7,4 @@ catleap/!out/out.zip
 catleap/model/exp_binary
 catleap/model/exp_count
 catleap/model/ct_score
+catleap/model/feature

@@ -60,7 +60,7 @@ def binary_classify(df):
         dict_score = dict()
         dict_score["precision"] = precision_score(y_test, y_pred)
         dict_score["recall"] = recall_score(y_test, y_pred)
-        dict_score["f1"] = f1_score(y_test, y_pred)
+        dict_score["f1"] = f1_score(y_test, y_pred, zero_division=0.0)
         dict_pred_results["score"].append(dict_score)
 
         # 説明変数の重要度を記録
@@ -91,54 +91,57 @@ if __name__ == "__main__":
     # - 1ループ目：獲得回数
     # - 2ループ目：獲得有無
     # ==========================================================
-    for path in ["./exp_count/", "./exp_binary/"]:
-        os.makedirs(path, exist_ok=True)
-        for ctscore in [8, 15]:
-            #  データの読み込みとモデルの実行
-            df = pd.read_csv("./CTScore-{}.csv".format(ctscore), index_col=["UserName"])
-            if "binary" in path:
-                df = convert_binary_data(df)
-            class_results, dict_pred_results = binary_classify(df)
-
-            # ファイル出力
-            class_results.to_csv(
-                path + "[RESULT]class_CTScore-{}_original.csv".format(ctscore),
-                index=True,
-            )
-            with open(
-                path + "[RESULT]skf_CTScore-{}_original.json".format(ctscore), "w"
-            ) as f:
-                f.write(json.dumps(dict_pred_results, indent=4))
-
-    # ==========================================================
-    # 予測精度の出力
-    # ==========================================================
-    with open("./prediction_result_original.md", "w") as f:
+    for i in range(1, 20):
         for path in ["./exp_count/", "./exp_binary/"]:
-            caption = "# 説明変数：獲得回数" if "count" in path else "# 説明変数：獲得経験"
-            f.write(caption + "\n")
-            f.write("| | 適合率 | 再現率 | F1値 |" + "\n")
-            f.write("| :-- | --: | --: | --: |" + "\n")
+            os.makedirs(path, exist_ok=True)
+            for ctscore in [8]:
+                #  データの読み込みとモデルの実行
+                df = pd.read_csv("./feature/CT{}-{}.csv".format(ctscore, i), index_col=["UserName"])
+                if "binary" in path:
+                    # df = convert_binary_data(df)
+                    break   
+                
+                class_results, dict_pred_results = binary_classify(df)
 
-            for cs in ["8", "15"]:
-                # jsonの読み込み
-                json_open = open(
-                    path + "[RESULT]skf_CTScore-" + cs + "_original.json", "r"
+                # ファイル出力
+                class_results.to_csv(
+                    path + "[RESULT]class_CTScore-{}_{}.csv".format(ctscore, i),
+                    index=True,
                 )
-                json_load = json.load(json_open)
+                with open(
+                    path + "[RESULT]skf_CTScore-{}_{}.json".format(ctscore, i), "w"
+                ) as f:
+                    f.write(json.dumps(dict_pred_results, indent=4))
 
-                # 精度の平均値を算出
-                precision = round(
-                    statistics.mean([jl["precision"] for jl in json_load["score"]]), 2
-                )
-                recall = round(
-                    statistics.mean([jl["recall"] for jl in json_load["score"]]), 2
-                )
-                f1 = round(statistics.mean([jl["f1"] for jl in json_load["score"]]), 2)
+        # ==========================================================
+        # 予測精度の出力
+        # ==========================================================
+        with open(f"./prediction_result_{i}.md", "w") as f:
+            for path in ["./exp_count/"]:
+                caption = "# 説明変数：獲得回数" if "count" in path else "# 説明変数：獲得経験"
+                f.write(caption + "\n")
+                f.write("| | 適合率 | 再現率 | F1値 |" + "\n")
+                f.write("| :-- | --: | --: | --: |" + "\n")
 
-                f.write(
-                    "| CTScore-{} | {} | {} | {} |".format(cs, precision, recall, f1)
-                    + "\n"
-                )
+                for cs in ["8", "15"]:
+                    # jsonの読み込み
+                    json_open = open(
+                        path + "[RESULT]skf_CTScore-" + cs + f"_{i}.json", "r"
+                    )
+                    json_load = json.load(json_open)
 
-            f.write("\n")
+                    # 精度の平均値を算出
+                    precision = round(
+                        statistics.mean([jl["precision"] for jl in json_load["score"]]), 2
+                    )
+                    recall = round(
+                        statistics.mean([jl["recall"] for jl in json_load["score"]]), 2
+                    )
+                    f1 = round(statistics.mean([jl["f1"] for jl in json_load["score"]]), 2)
+
+                    f.write(
+                        "| CTScore-{} | {} | {} | {} |".format(cs, precision, recall, f1)
+                        + "\n"
+                    )
+
+                f.write("\n")
