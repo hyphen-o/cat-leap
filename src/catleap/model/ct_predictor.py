@@ -96,11 +96,13 @@ if __name__ == "__main__":
             os.makedirs(path, exist_ok=True)
             for ctscore in [8]:
                 #  データの読み込みとモデルの実行
-                df = pd.read_csv("./feature/CT{}-{}.csv".format(ctscore, i), index_col=["UserName"])
+                df = pd.read_csv(
+                    "./feature/CT{}-{}.csv".format(ctscore, i), index_col=["UserName"]
+                )
                 if "binary" in path:
                     # df = convert_binary_data(df)
-                    break   
-                
+                    break
+
                 class_results, dict_pred_results = binary_classify(df)
 
                 # ファイル出力
@@ -132,15 +134,20 @@ if __name__ == "__main__":
 
                     # 精度の平均値を算出
                     precision = round(
-                        statistics.mean([jl["precision"] for jl in json_load["score"]]), 2
+                        statistics.mean([jl["precision"] for jl in json_load["score"]]),
+                        2,
                     )
                     recall = round(
                         statistics.mean([jl["recall"] for jl in json_load["score"]]), 2
                     )
-                    f1 = round(statistics.mean([jl["f1"] for jl in json_load["score"]]), 2)
+                    f1 = round(
+                        statistics.mean([jl["f1"] for jl in json_load["score"]]), 2
+                    )
 
                     f.write(
-                        "| CTScore-{} | {} | {} | {} |".format(cs, precision, recall, f1)
+                        "| CTScore-{} | {} | {} | {} |".format(
+                            cs, precision, recall, f1
+                        )
                         + "\n"
                     )
 

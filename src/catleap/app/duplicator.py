@@ -73,6 +73,7 @@ def __calculate_euclid(x: dict, y: dict):
         sum += (int(x[concept]) - int(y[concept])) ** 2
     return round(sum**0.5, 3)
 
+
 ms = MileStastics()
 ms.set_data(bas_to_dev)
 dupli = ms.get_duplication()

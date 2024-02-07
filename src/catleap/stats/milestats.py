@@ -92,7 +92,8 @@ class MileStastics:
                             "Level": USER_MILES["MILES"][index + 1]["Level"],
                             # "Num": USER_MILES["MILES"][index + 1]["Num"]
                         }
-                        if index != len(USER_MILES["MILES"]) - 2 or not USER_MILES["CLASS"]
+                        if index != len(USER_MILES["MILES"]) - 2
+                        or not USER_MILES["CLASS"]
                         else "NEXT_LEVEL",
                     }
                 }
