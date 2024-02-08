@@ -79,13 +79,13 @@ ms.set_data(bas_to_dev)
 dupli = ms.get_duplication()
 # duplication_list = get_duplication(bas_to_dev)
 # print(duplication_list)
-with open(path.BAS_TO_DEV + "duplication-all.json", "w") as f:
+with open(path.BAS_TO_DEV + "duplication-all3.json", "w") as f:
     json.dump(dupli, f, indent=2)
 ms.set_data(dev_to_mas)
 dupli = ms.get_duplication()
 # duplication_list = get_duplication(bas_to_dev)
 # print(duplication_list)
-with open(path.DEV_TO_MAS + "duplication-all.json", "w") as f:
+with open(path.DEV_TO_MAS + "duplication-all3.json", "w") as f:
     json.dump(dupli, f, indent=2)
 # draw_digraph(duplication_list, "bas_to_dev_marked", 0)
 

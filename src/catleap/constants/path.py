@@ -1,6 +1,7 @@
 import os
 
-OUT = os.path.abspath("../") + "/out/"
+ROOT = os.path.abspath("../")
+OUT = ROOT + "/out/"
 JSON = OUT + "json/"
 CSV = OUT + "csv/"
 GRAPH = OUT + "graph/"
@@ -17,3 +18,6 @@ BAR = GRAPH + "bar/"
 BOXPLOT = GRAPH + "boxplot/"
 DIGRAPH = GRAPH + "digraph/"
 LINE = GRAPH + "line/"
+LINES = GRAPH + "lines/"
+
+MODEL = ROOT + "/model/"

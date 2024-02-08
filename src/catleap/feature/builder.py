@@ -13,7 +13,8 @@ class FeatureBuilder:
         self.__TYPE = type
         self.__read_data()
 
-    def extract_features(self, cached=False):
+    def extract_features(self, bottom=True, cached=True):
+        self.IS_BOTTOM = bottom
         match (self.__TYPE):
             case "TRANS":
                 self.__extract_trans_features("BAS_TO_DEV", cached)
@@ -30,13 +31,13 @@ class FeatureBuilder:
                     "BAS_TO_DEV": {
                         "USERS": json.load(open(path.BAS_TO_DEV + "out-all.json", "r")),
                         "DUPLICATIONS": json.load(
-                            open(path.BAS_TO_DEV + "duplication.json", "r")
+                            open(path.BAS_TO_DEV + "duplication-all2.json", "r")
                         ),
                     },
                     "DEV_TO_MAS": {
                         "USERS": json.load(open(path.DEV_TO_MAS + "out-all.json", "r")),
                         "DUPLICATIONS": json.load(
-                            open(path.DEV_TO_MAS + "duplication.json", "r")
+                            open(path.DEV_TO_MAS + "duplication-all2.json", "r")
                         ),
                     },
                 }
@@ -75,29 +76,34 @@ class FeatureBuilder:
             labels = ["UserName"] + [f"Trans{i}" for i in range(length)] + ["Class"]
             df = pd.DataFrame(columns=labels)
             for user_name, dict in tqdm(probablities_dict.items(), leave=False):
-                if len(dict["PROBABILITY"]) < length:
+                if len(dict["PROBABILITY"]) <= length:
                     continue
-
+                
                 user_class = 0
-                if len(dict["PROBABILITY"]) == length:
-                    if length == 19 and not dict["ORIGIN_CLASS"]:
-                        user_class = 0
-                    else:
-                        user_class = 1
+                if self.IS_BOTTOM:
+                    user_class = dict["ORIGIN_CLASS"]
+                else:         
+                  if len(dict["PROBABILITY"]) == length:
+                      if length == 19 and not dict["ORIGIN_CLASS"]:
+                          user_class = 0
+                      else:
+                          user_class = 1
 
                 trans = 1.0
                 trans_array = []
-                for index, probablity in enumerate(dict["PROBABILITY"]):
+                tmp = dict["PROBABILITY"].pop(-1)
+                for index, probablity in enumerate(reversed(dict["PROBABILITY"])):
                     trans *= probablity
                     trans_array.append(trans)
                     if index + 1 == length:
                         break
+                dict["PROBABILITY"].append(tmp)
 
                 df.loc[len(df)] = [user_name] + trans_array + [user_class]
             if target == "BAS_TO_DEV":
-                df.to_csv(f"../model/feature/CT8-{length}.csv")
+                df.to_csv(path.MODEL + f"feature/CT8-{str(length) + '-reversed3' if self.IS_BOTTOM else str(length) + '-reversed'}.csv", index=False)
             elif target == "DEV_TO_MAS":
-                df.to_csv(f"../model/feature/CT15-{length}.csv")
+                df.to_csv(path.MODEL + f"feature/CT15-{str(length) + '-reversed3' if self.IS_BOTTOM else length}.csv", index=False)
 
     def __calculate_probablity(self, MILES, target, is_positive):
         DUPLICATIONS = self.__DATA[target]["DUPLICATIONS"]
@@ -125,12 +131,12 @@ class FeatureBuilder:
                 if FLATTEN_MILE == DUPLICATION["Edge"]["StartP"]:
                     all += DUPLICATION["Count"]
 
-                    if index == len(MILES) - 2 and is_positive:
-                        if DUPLICATION["Edge"]["EndP"] == "NEXT_LEVEL":
-                            target = DUPLICATION["Count"]
-                    else:
-                        if FLATTEN_NEXT_MILE == DUPLICATION["Edge"]["EndP"]:
-                            target = DUPLICATION["Count"]
+                    # if index == len(MILES) - 2 and is_positive:
+                    #     if DUPLICATION["Edge"]["EndP"] == "NEXT_LEVEL":
+                    #         target = DUPLICATION["Count"]
+                    # else:
+                    if FLATTEN_NEXT_MILE == DUPLICATION["Edge"]["EndP"]:
+                        target = DUPLICATION["Count"]
 
             probablity = 0.0
             if target:

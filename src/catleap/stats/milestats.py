@@ -70,6 +70,8 @@ class MileStastics:
             for index, MILE in enumerate(USER_MILES["MILES"]):
                 if index == len(USER_MILES["MILES"]) - 1:
                     break
+                if index == len(USER_MILES["MILES"]) - 2:
+                    break
                 # if not self.__is_grow_up(
                 #     MILE["Before"]["Feature"],
                 #     USER_MILES[index + 1]["Before"]["Feature"],
@@ -92,9 +94,9 @@ class MileStastics:
                             "Level": USER_MILES["MILES"][index + 1]["Level"],
                             # "Num": USER_MILES["MILES"][index + 1]["Num"]
                         }
-                        if index != len(USER_MILES["MILES"]) - 2
-                        or not USER_MILES["CLASS"]
-                        else "NEXT_LEVEL",
+                        # if index != len(USER_MILES["MILES"]) - 2
+                        # or not USER_MILES["CLASS"]
+                        # else "NEXT_LEVEL",
                     }
                 }
 
