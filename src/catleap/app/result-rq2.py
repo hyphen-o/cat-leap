@@ -16,18 +16,7 @@ class LineProps(NamedTuple):
   y3: list
   file_name: str
 
-# json_file = open(path.MODEL + "btod_results5.json", "r")
-# bas_to_dev = json.load(json_file)
-
-# draw_lines(LineProps(
-#   bas_to_dev["num"],
-#   bas_to_dev["precision"],
-#   bas_to_dev["recall"],
-#   bas_to_dev["f1"],
-#   path.LINES + "btod-lines5.pdf"
-# ))
-
-json_file = open(path.MODEL + "dtom_results5.json", "r")
+json_file = open(path.MODEL + "btod_results5.json", "r")
 bas_to_dev = json.load(json_file)
 
 draw_lines(LineProps(
@@ -35,5 +24,16 @@ draw_lines(LineProps(
   bas_to_dev["precision"],
   bas_to_dev["recall"],
   bas_to_dev["f1"],
-  path.LINES + "dtom-lines5.pdf"
+  path.LINES + "btod-lines5.pdf"
 ))
+
+# json_file = open(path.MODEL + "dtom_results5.json", "r")
+# bas_to_dev = json.load(json_file)
+
+# draw_lines(LineProps(
+#   bas_to_dev["num"],
+#   bas_to_dev["precision"],
+#   bas_to_dev["recall"],
+#   bas_to_dev["f1"],
+#   path.LINES + "dtom-lines5.pdf"
+# ))
