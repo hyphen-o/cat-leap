@@ -92,7 +92,7 @@ class FeatureBuilder:
                 trans = 1.0
                 trans_array = []
                 tmp = dict["PROBABILITY"].pop(-1)
-                for index, probablity in enumerate(reversed(dict["PROBABILITY"])):
+                for index, probablity in enumerate(dict["PROBABILITY"][len(dict["PROBABILITY"]) - length: ]):
                     trans *= probablity
                     trans_array.append(trans)
                     if index + 1 == length:

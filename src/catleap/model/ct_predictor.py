@@ -113,40 +113,48 @@ if __name__ == "__main__":
             for ctscore in [8, 15]:
                 #  データの読み込みとモデルの実行
                 df = pd.read_csv(
-                    "./ct_score/CTScore-{}.csv".format(ctscore, i), index_col=["UserName"]
+                    "./ct_score/CTScore-{}.csv".format(ctscore, i), index_col="UserName"
                 )
+
+                df = convert_binary_data(df)
+
+
+                df2 = pd.read_csv(f"./feature/CT{ctscore}-{i}-reversed3.csv")  # ファイル2の読み込み
+                df2 = df2.drop(columns=["Class"])
+                df = df2.merge(df, on="UserName", how='inner')
+
+
+                # df = df[df["UserName"].isin(df2["UserName"])]
+                df = df.set_index("UserName")
+                print(df)
+
                 if "binary" in path:
                     # df = convert_binary_data(df)
                     break
 
-                df = convert_binary_data(df)
-                df2 = pd.read_csv(f"./feature/CT{ctscore}-{i}-reversed3.csv")  # ファイル2の読み込み
-                df2 = df2.drop(columns=["Class"])
 
                 # 'UserName'列をキーにして2つのDataFrameを結合
-                df = df2.merge(df, on="UserName", how='inner')
-                df = df.drop(columns=["UserName"])
 
                 class_results, dict_pred_results = binary_classify(df)
-                print(i)
+                # print(i)
 
                 # merged_df = merged_df.drop(columns=["Unnamed: 0"])
 
                 # ファイル出力
                 class_results.to_csv(
-                    path + "[RESULT]class_CTScore-{}_{}-reversed5.csv".format(ctscore, i),
+                    path + "[RESULT]class_CTScore-{}-{}-ver1.csv".format(ctscore, i),
                     index=True,
                 )
                 with open(
-                    path + "[RESULT]skf_CTScore-{}_{}-reversed5.json".format(ctscore, i), "w"
+                    path + f"[RESULT]skf_CTScore-{ctscore}-{i}-ver1.json", "w"
                 ) as f:
                     f.write(json.dumps(dict_pred_results, indent=4))
 
         # ==========================================================
         # 予測精度の出力
         # ==========================================================
-        with open(f"./prediction_result_{i}-reversed5.md", "w") as f:
-            for path in ["./exp_count/"]:
+        with open(f"./prediction_result-{i}-ver1.md", "w") as f:
+            for path in ["./exp_count/",]:
                 caption = "# 説明変数：獲得回数" if "count" in path else "# 説明変数：獲得経験"
                 f.write(caption + "\n")
                 f.write("| | 適合率 | 再現率 | F1値 |" + "\n")
@@ -155,7 +163,7 @@ if __name__ == "__main__":
                 for cs in ["8", "15"]:
                     # jsonの読み込み
                     json_open = open(
-                        path + "[RESULT]skf_CTScore-" + cs + f"_{i}-reversed5.json", "r"
+                        path + "[RESULT]skf_CTScore-" + cs + f"-{i}-ver1.json", "r"
                     )
                     json_load = json.load(json_open)
 
@@ -182,7 +190,6 @@ if __name__ == "__main__":
                         dtom_array["precision"].append(precision)
                         dtom_array["recall"].append(recall)
                         dtom_array["f1"].append(f1)
-                        
 
                     f.write(
                         "| CTScore-{} | {} | {} | {} |".format(
@@ -193,7 +200,7 @@ if __name__ == "__main__":
 
                 f.write("\n")
 
-    with open( "./btod_results5.json", "w") as f:
+    with open( "./btod_result--ver1.json", "w") as f:
         json.dump(btod_array, f, indent=2)
-    with open("./dtom_results5.json", "w") as f:
+    with open("./dtom_result--ver1.json", "w") as f:
         json.dump(dtom_array, f, indent=2)
