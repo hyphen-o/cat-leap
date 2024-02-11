@@ -10,9 +10,11 @@ import statistics
 import os
 from tqdm import tqdm
 import sys
+
 sys.path.append("../")
 
 from constants import path
+
 
 def binary_classify(df):
     """
@@ -118,11 +120,11 @@ if __name__ == "__main__":
 
                 df = convert_binary_data(df)
 
-
-                df2 = pd.read_csv(f"./feature/CT{ctscore}-{i}-reversed3.csv")  # ファイル2の読み込み
+                df2 = pd.read_csv(
+                    f"./feature/CT{ctscore}-{i}-reversed3.csv"
+                )  # ファイル2の読み込み
                 df2 = df2.drop(columns=["Class"])
-                df = df2.merge(df, on="UserName", how='inner')
-
+                df = df2.merge(df, on="UserName", how="inner")
 
                 # df = df[df["UserName"].isin(df2["UserName"])]
                 df = df.set_index("UserName")
@@ -131,7 +133,6 @@ if __name__ == "__main__":
                 if "binary" in path:
                     # df = convert_binary_data(df)
                     break
-
 
                 # 'UserName'列をキーにして2つのDataFrameを結合
 
@@ -154,7 +155,9 @@ if __name__ == "__main__":
         # 予測精度の出力
         # ==========================================================
         with open(f"./prediction_result-{i}-ver1.md", "w") as f:
-            for path in ["./exp_count/",]:
+            for path in [
+                "./exp_count/",
+            ]:
                 caption = "# 説明変数：獲得回数" if "count" in path else "# 説明変数：獲得経験"
                 f.write(caption + "\n")
                 f.write("| | 適合率 | 再現率 | F1値 |" + "\n")
@@ -179,7 +182,6 @@ if __name__ == "__main__":
                         statistics.mean([jl["f1"] for jl in json_load["score"]]), 2
                     )
 
-
                     if cs == "8":
                         btod_array["num"].append(i)
                         btod_array["precision"].append(precision)
@@ -200,7 +202,7 @@ if __name__ == "__main__":
 
                 f.write("\n")
 
-    with open( "./btod_result--ver1.json", "w") as f:
+    with open("./btod_result--ver1.json", "w") as f:
         json.dump(btod_array, f, indent=2)
     with open("./dtom_result--ver1.json", "w") as f:
         json.dump(dtom_array, f, indent=2)

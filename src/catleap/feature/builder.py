@@ -78,21 +78,23 @@ class FeatureBuilder:
             for user_name, dict in tqdm(probablities_dict.items(), leave=False):
                 if len(dict["PROBABILITY"]) <= length:
                     continue
-                
+
                 user_class = 0
                 if self.IS_BOTTOM:
                     user_class = dict["ORIGIN_CLASS"]
-                else:         
-                  if len(dict["PROBABILITY"]) == length:
-                      if length == 19 and not dict["ORIGIN_CLASS"]:
-                          user_class = 0
-                      else:
-                          user_class = 1
+                else:
+                    if len(dict["PROBABILITY"]) == length:
+                        if length == 19 and not dict["ORIGIN_CLASS"]:
+                            user_class = 0
+                        else:
+                            user_class = 1
 
                 trans = 1.0
                 trans_array = []
                 tmp = dict["PROBABILITY"].pop(-1)
-                for index, probablity in enumerate(dict["PROBABILITY"][len(dict["PROBABILITY"]) - length: ]):
+                for index, probablity in enumerate(
+                    dict["PROBABILITY"][len(dict["PROBABILITY"]) - length :]
+                ):
                     trans *= probablity
                     trans_array.append(trans)
                     if index + 1 == length:
@@ -101,9 +103,17 @@ class FeatureBuilder:
 
                 df.loc[len(df)] = [user_name] + trans_array + [user_class]
             if target == "BAS_TO_DEV":
-                df.to_csv(path.MODEL + f"feature/CT8-{str(length) + '-reversed3' if self.IS_BOTTOM else str(length) + '-reversed'}.csv", index=False)
+                df.to_csv(
+                    path.MODEL
+                    + f"feature/CT8-{str(length) + '-reversed3' if self.IS_BOTTOM else str(length) + '-reversed'}.csv",
+                    index=False,
+                )
             elif target == "DEV_TO_MAS":
-                df.to_csv(path.MODEL + f"feature/CT15-{str(length) + '-reversed3' if self.IS_BOTTOM else length}.csv", index=False)
+                df.to_csv(
+                    path.MODEL
+                    + f"feature/CT15-{str(length) + '-reversed3' if self.IS_BOTTOM else length}.csv",
+                    index=False,
+                )
 
     def __calculate_probablity(self, MILES, target, is_positive):
         DUPLICATIONS = self.__DATA[target]["DUPLICATIONS"]

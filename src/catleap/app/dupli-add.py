@@ -9,7 +9,7 @@ sys.path.append("../")
 
 from stats import MileStastics
 from constants import path, skill
-from graph import draw_digraph,draw_boxplot
+from graph import draw_digraph, draw_boxplot
 
 
 json_file = open(path.BAS_TO_DEV + "out-all.json", "r")
@@ -27,22 +27,25 @@ btod_negative_array = []
 dtom_positive_array = []
 dtom_negative_array = []
 for USER in tqdm(dev_to_mas):
-  FLATTEN_MILE = {
-      **USER["MILES"][len(USER["MILES"]) -3]["Before"],
-      "IsRemix": USER["MILES"][len(USER["MILES"]) -3]["IsRemix"],
-      "Level": USER["MILES"][len(USER["MILES"]) -3]["Level"],
-  }
-  FLATTEN_NEXT_MILE = {
-      **USER["MILES"][len(USER["MILES"]) -2]["Before"],
-      "IsRemix": USER["MILES"][len(USER["MILES"]) -2]["IsRemix"],
-      "Level": USER["MILES"][len(USER["MILES"]) -2]["Level"],
-  }
-  for dupli in dev_to_mas_dupli:
-    if dupli["Edge"]["StartP"] == FLATTEN_MILE and dupli["Edge"]["EndP"] == FLATTEN_NEXT_MILE:
-      if USER["CLASS"]:
-        btod_positive_array.append(dupli["Count"])
-      else:
-        btod_negative_array.append(dupli["Count"])
+    FLATTEN_MILE = {
+        **USER["MILES"][len(USER["MILES"]) - 3]["Before"],
+        "IsRemix": USER["MILES"][len(USER["MILES"]) - 3]["IsRemix"],
+        "Level": USER["MILES"][len(USER["MILES"]) - 3]["Level"],
+    }
+    FLATTEN_NEXT_MILE = {
+        **USER["MILES"][len(USER["MILES"]) - 2]["Before"],
+        "IsRemix": USER["MILES"][len(USER["MILES"]) - 2]["IsRemix"],
+        "Level": USER["MILES"][len(USER["MILES"]) - 2]["Level"],
+    }
+    for dupli in dev_to_mas_dupli:
+        if (
+            dupli["Edge"]["StartP"] == FLATTEN_MILE
+            and dupli["Edge"]["EndP"] == FLATTEN_NEXT_MILE
+        ):
+            if USER["CLASS"]:
+                btod_positive_array.append(dupli["Count"])
+            else:
+                btod_negative_array.append(dupli["Count"])
 
 
 """props = {
@@ -60,19 +63,21 @@ print("p 値:", p_value)
 print(f"中央値： {statistics.median(btod_positive_array)}")
 print(f"中央値： {statistics.median(btod_negative_array)}")
 
+
 class Props(NamedTuple):
-  nested_list: list
-  xlabel: str
-  ylabel: str
-  title: str
-  file_name: str
+    nested_list: list
+    xlabel: str
+    ylabel: str
+    title: str
+    file_name: str
+
 
 draw_boxplot(
-  Props(
-    [btod_positive_array, btod_negative_array],
-    "DtoMユーザ",
-    "非DtoMユーザ",
-    "",
-    "add-dtom.pdf"
-  )
+    Props(
+        [btod_positive_array, btod_negative_array],
+        "DtoMユーザ",
+        "非DtoMユーザ",
+        "",
+        "add-dtom.pdf",
+    )
 )
