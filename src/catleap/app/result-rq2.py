@@ -18,6 +18,8 @@ class LineProps(NamedTuple):
 
 json_file = open(path.MODEL + "btod_results5.json", "r")
 bas_to_dev = json.load(json_file)
+# json_file = open(path.MODEL + "btod_results5.json", "r")
+# bas_to_dev = json.load(json_file)
 
 draw_lines(LineProps(
   bas_to_dev["num"],
