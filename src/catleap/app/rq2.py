@@ -41,6 +41,25 @@ dupli_positive.to_csv("./results/dtom_dupli_positive.csv")
 negative.to_csv("./results/dtom_negative.csv")
 positive.to_csv("./results/dtom_positive.csv")
 
+json_file = open(path.BAS_TO_DEV + "out-all.json", "r")
+json_file2 = open(path.DEV_TO_MAS + "out-all.json", "r")
+bas_to_dev = json.load(json_file)
+dev_to_mas = json.load(json_file2)
+
+array = []
+for index, row in tqdm(before_positive.iterrows()):
+    for USER in bas_to_dev:
+        if USER["USER_NAME"] == row["UserName"]:
+            array.append(len(USER["MILES"]) - 1)
+
+array2 = []
+for index, row in tqdm(positive.iterrows()):
+    for USER in bas_to_dev:
+        if USER["USER_NAME"] == row["UserName"]:
+            array2.append(len(USER["MILES"]) - 1)
+
+
+
 
 # Select and display the relevant columns
 # output_columns = ['UserName', 'Class_df1', 'PredClass_df1', 'Class_df2', 'PredClass_df2']
