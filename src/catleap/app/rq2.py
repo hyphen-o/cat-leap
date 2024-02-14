@@ -9,6 +9,8 @@ sys.path.append("../")
 from stats import MileStastics
 from constants import path
 from graph import draw_digraph
+from scipy.stats import mannwhitneyu
+import statistics
 
 # Assuming you have two CSV files: 'file1.csv' and 'file2.csv'
 # Load the CSV files into DataFrames
@@ -48,15 +50,37 @@ dev_to_mas = json.load(json_file2)
 
 array = []
 for index, row in tqdm(before_positive.iterrows()):
-    for USER in bas_to_dev:
+    for USER in dev_to_mas:
         if USER["USER_NAME"] == row["UserName"]:
             array.append(len(USER["MILES"]) - 1)
 
 array2 = []
 for index, row in tqdm(positive.iterrows()):
-    for USER in bas_to_dev:
+    for USER in dev_to_mas:
         if USER["USER_NAME"] == row["UserName"]:
             array2.append(len(USER["MILES"]) - 1)
+
+array3 = []
+for index, row in tqdm(negative.iterrows()):
+    for USER in dev_to_mas:
+        if USER["USER_NAME"] == row["UserName"]:
+            array3.append(len(USER["MILES"]) - 1)
+
+array4 = []
+for index, row in tqdm(dupli_positive.iterrows()):
+    for USER in dev_to_mas:
+        if USER["USER_NAME"] == row["UserName"]:
+            array4.append(len(USER["MILES"]) - 1)
+
+array5 = array + array2 + array4
+
+statistic, p_value = mannwhitneyu(array3, array5)
+
+print("Mann-Whitney U 検定統計量:", statistic)
+print("p 値:", p_value)
+print(f"中央値： {statistics.median(array3)}")
+print(f"中央値： {statistics.median(array5)}")
+
 
 
 

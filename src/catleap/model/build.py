@@ -8,4 +8,4 @@ from constants import path
 from feature import FeatureBuilder
 
 fB = FeatureBuilder("TRANS")
-fB.extract_features()
+fB.extract_features(cached=False)

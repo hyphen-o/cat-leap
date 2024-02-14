@@ -143,18 +143,18 @@ if __name__ == "__main__":
 
                 # ファイル出力
                 class_results.to_csv(
-                    path + "[RESULT]class_CTScore-{}-{}-ver1.csv".format(ctscore, i),
+                    path + "[RESULT]class_CTScore-{}-{}-ver2.csv".format(ctscore, i),
                     index=True,
                 )
                 with open(
-                    path + f"[RESULT]skf_CTScore-{ctscore}-{i}-ver1.json", "w"
+                    path + f"[RESULT]skf_CTScore-{ctscore}-{i}-ver2.json", "w"
                 ) as f:
                     f.write(json.dumps(dict_pred_results, indent=4))
 
         # ==========================================================
         # 予測精度の出力
         # ==========================================================
-        with open(f"./prediction_result-{i}-ver1.md", "w") as f:
+        with open(f"./prediction_result-{i}-ver2.md", "w") as f:
             for path in [
                 "./exp_count/",
             ]:
@@ -166,7 +166,7 @@ if __name__ == "__main__":
                 for cs in ["8", "15"]:
                     # jsonの読み込み
                     json_open = open(
-                        path + "[RESULT]skf_CTScore-" + cs + f"-{i}-ver1.json", "r"
+                        path + "[RESULT]skf_CTScore-" + cs + f"-{i}-ver2.json", "r"
                     )
                     json_load = json.load(json_open)
 
@@ -202,7 +202,7 @@ if __name__ == "__main__":
 
                 f.write("\n")
 
-    with open("./btod_result--ver1.json", "w") as f:
+    with open("./btod_result--ver2.json", "w") as f:
         json.dump(btod_array, f, indent=2)
-    with open("./dtom_result--ver1.json", "w") as f:
+    with open("./dtom_result--ver2.json", "w") as f:
         json.dump(dtom_array, f, indent=2)

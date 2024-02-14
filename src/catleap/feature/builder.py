@@ -31,13 +31,13 @@ class FeatureBuilder:
                     "BAS_TO_DEV": {
                         "USERS": json.load(open(path.BAS_TO_DEV + "out-all.json", "r")),
                         "DUPLICATIONS": json.load(
-                            open(path.BAS_TO_DEV + "duplication-all2.json", "r")
+                            open(path.BAS_TO_DEV + "duplication-target.json", "r")
                         ),
                     },
                     "DEV_TO_MAS": {
                         "USERS": json.load(open(path.DEV_TO_MAS + "out-all.json", "r")),
                         "DUPLICATIONS": json.load(
-                            open(path.DEV_TO_MAS + "duplication-all2.json", "r")
+                            open(path.DEV_TO_MAS + "duplication-target.json", "r")
                         ),
                     },
                 }
