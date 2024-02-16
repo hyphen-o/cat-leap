@@ -82,9 +82,6 @@ print(f"中央値： {statistics.median(array3)}")
 print(f"中央値： {statistics.median(array5)}")
 
 
-
-
-
 # Select and display the relevant columns
 # output_columns = ['UserName', 'Class_df1', 'PredClass_df1', 'Class_df2', 'PredClass_df2']
 # result = filtered_df[output_columns]
