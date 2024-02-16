@@ -7,8 +7,8 @@ from stats import MileStastics
 from constants import path, skill
 from graph import draw_digraph
 
-json_file = open(path.BAS_TO_DEV + "target.json", "r")
-json_file2 = open(path.DEV_TO_MAS + "target.json", "r")
+json_file = open(path.BAS_TO_DEV + "not-target.json", "r")
+json_file2 = open(path.DEV_TO_MAS + "not-target.json", "r")
 bas_to_dev = json.load(json_file)
 dev_to_mas = json.load(json_file2)
 
@@ -79,13 +79,13 @@ ms.set_data(bas_to_dev)
 dupli = ms.get_duplication()
 # duplication_list = get_duplication(bas_to_dev)
 # print(duplication_list)
-with open(path.BAS_TO_DEV + "duplication-target.json", "w") as f:
+with open(path.BAS_TO_DEV + "duplication-not-target.json", "w") as f:
     json.dump(dupli, f, indent=2)
 ms.set_data(dev_to_mas)
 dupli = ms.get_duplication()
 # duplication_list = get_duplication(bas_to_dev)
 # print(duplication_list)
-with open(path.DEV_TO_MAS + "duplication-target.json", "w") as f:
+with open(path.DEV_TO_MAS + "duplication-not-target.json", "w") as f:
     json.dump(dupli, f, indent=2)
 # draw_digraph(duplication_list, "bas_to_dev_marked", 0)
 

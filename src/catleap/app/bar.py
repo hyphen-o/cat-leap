@@ -19,13 +19,16 @@ class BoxPlot(NamedTuple):
     file_name: str
 
 
-json_file = open(path.BAS_TO_DEV + "duplication-all.json", "r")
-json_file2 = open(path.DEV_TO_MAS + "duplication-all.json", "r")
+json_file = open(path.DEV_TO_MAS + "duplication-target.json", "r")
+json_file2 = open(path.DEV_TO_MAS + "duplication-not-target.json", "r")
 bas_to_dev = json.load(json_file)
 dev_to_mas = json.load(json_file2)
 
-bas_to_dev = [x["COUNT"] for x in bas_to_dev]
-dev_to_mas = [x["COUNT"] for x in dev_to_mas]
+bas_to_dev = [x["Count"] for x in bas_to_dev]
+dev_to_mas = [x["Count"] for x in dev_to_mas]
+
+print(bas_to_dev)
+print(dev_to_mas)
 
 # Mann-Whitney U検定
 statistic, p_value = mannwhitneyu(bas_to_dev, dev_to_mas)
@@ -49,9 +52,9 @@ print(
 draw_boxplot(
     BoxPlot(
         [bas_to_dev, dev_to_mas],
-        "BASICからDEVELOPING以上",
-        "DEVELOPINGからMASTER",
+        "BtoDユーザ",
+        "非BtoDユーザ",
         "",
-        "dupli-all.pdf",
+        "btod-target-comp.pdf",
     )
 )
