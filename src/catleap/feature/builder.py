@@ -115,7 +115,7 @@ class FeatureBuilder:
                     index=False,
                 )
 
-    def __calculate_probablity(self, MILES, target, is_positive):
+    def __calculate_probablity(self, MILES, target):
         DUPLICATIONS = self.__DATA[target]["DUPLICATIONS"]
         probablities = []
 
