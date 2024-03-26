@@ -1,5 +1,4 @@
 from collections import defaultdict
-import numpy as np
 
 def count_transitions(sequence, n):
     transitions = defaultdict(lambda: defaultdict(int))
@@ -21,4 +20,3 @@ transitions = count_transitions(sequence, 2)
 
 current_state = [1, 2]
 predicted_next_state = predict_next_state(transitions, current_state)
-print(f"Predicted next state for {current_state}: {predicted_next_state}")
