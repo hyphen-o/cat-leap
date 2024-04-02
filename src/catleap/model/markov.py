@@ -20,3 +20,4 @@ transitions = count_transitions(sequence, 2)
 
 current_state = [1, 2]
 predicted_next_state = predict_next_state(transitions, current_state)
+
