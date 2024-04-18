@@ -34,10 +34,8 @@ sequences = [
 # nを2に設定して学習
 transitions_list = train_on_sequences(sequences, 2)
 
-# 各シーケンスの遷移表を表示（例として最初のもののみ）
 print(transitions_list[0])
 
-# 特定の状態に基づいて次の状態を予測
 current_state = [1, 2]
 predicted_next_state = predict_next_state(transitions_list[0], current_state)
 print("Predicted next state for [1, 2]:", predicted_next_state)
@@ -57,11 +55,11 @@ def evaluate_model(sequence, n, transitions):
     precision, recall, f1_score, _ = precision_recall_fscore_support(y_true, y_pred, average='macro')
     return precision, recall, f1_score
 
-# 2000個のデータポイントからなるシーケンス
 np.random.seed(0)
-sequence = np.random.randint(0, 10, 2000)  # 仮に0から9までの整数値
+sequence = np.random.randint(0, 10, 2000) 
 
-# 交差検証を通じて各スコアを計算
+
+# 交差検証
 kf = KFold(n_splits=10)
 precisions, recalls, f1_scores = [], [], []
 
