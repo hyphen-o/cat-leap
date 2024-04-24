@@ -105,15 +105,15 @@ def evaluate_model(sequences, n, transitions):
       y_pred.append(predicted_state if predicted_state is not None else "")  # 使用されていない状態の予測のために特別な処理
 
 
-    #   for i in range(len(sequence) - n):
-    #       current_state = str(sequence[i:i+n])
-    #       # print("current_state: " + current_state)
-    #       true_next_state = str(sequence[i+n])
-    #       predicted_state = predict_next_state(transitions, current_state)
+      for i in range(len(sequence) - n):
+          current_state = str(sequence[i:i+n])
+          # print("current_state: " + current_state)
+          true_next_state = str(sequence[i+n])
+          predicted_state = predict_next_state(transitions, current_state)
           
-    #       y_true.append(true_next_state)
-    #       y_pred.append(predicted_state if predicted_state is not None else "")  # 使用されていない状態の予測のために特別な処理
-    # print(y_pred)
+          y_true.append(true_next_state)
+          y_pred.append(predicted_state if predicted_state is not None else "")  # 使用されていない状態の予測のために特別な処理
+    print(y_pred)
       
     precision, recall, f1_score, _ = precision_recall_fscore_support(y_true, y_pred, average='macro', zero_division=0)
     return precision, recall, f1_score
